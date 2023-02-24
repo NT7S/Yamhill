@@ -1,6 +1,6 @@
 # Project Yamhill Architecture
-Jason Milldrum, NT7S
-Etherkit LLC
+Jason Milldrum, NT7S<br/>
+Etherkit LLC<br/>
 Revision: 23 February 2023
 
 ## Overview
