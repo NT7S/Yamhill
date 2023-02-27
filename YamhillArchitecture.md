@@ -1,7 +1,7 @@
 # Project Yamhill Architecture
 Jason Milldrum, NT7S<br/>
 Etherkit LLC<br/>
-Revision: 23 February 2023
+Revision: 27 February 2023
 
 ## Overview
 Project Yamhill is the successor to the Willamette Transceiver, also known as the qrp-l Group Project. The purpose of this endeavor is to provide a platform to learn about radio electronics at a system level. Modules that correspond to the blocks of a block diagram will be the basis upon which different types of radio designs will be created. A modular 3D printed backplane will be the chassis, user interface, and power supply for the radio experiments. The desired goal is to have a high-performance CW QRP transceiver at the end of the main project run, however there would be the capacity to build many other types of radios from the blocks as desired, such as a SSB transceiver, run more transmit power with a linear amplifier that can provide 20 watts or more, data radio, simple receiver, different architectures such as a phasing receiver, etc.
@@ -14,7 +14,7 @@ The Yamhill backplane will be the foundation of every radio experiment in this p
 Possibly two sizes, but we're going to start with the largest and see if there is demand for a more compact version.
 
 ### Block Module Grid
-A grid of mounting holes for M4(?) screws to secure block module PCBs to the backplane will be spaced at 5 cm in each axis, with a 1 cm x 1 cm x 1 cm cable management channel being provided between each row and column of mounting holes.
+A grid of mounting holes for M3(?) screws to secure block module PCBs to the backplane will be spaced at 4 cm in each axis, with allowance for 5 mm of margin from the outside board edge at each mounting hole, with a 1 cm x 1 cm x 1 cm cable management channel being provided between each row and column of mounting holes.
 
 Therefore, allowable PCB sizes will be 5 cm x 5 cm, 5 cm x 11 cm, 11 cm x 11 cm, 11 cm x 17 cm, etc.
 
@@ -48,9 +48,9 @@ Block modules are self-contained PCBs that will perform the functions of a block
 
 ### List
 - PSU/Power Distribution (special case, backplane integration)
-    - 12 V rail, minimum 1 A
-    - 5 V rail, minimum ? A
-    - 3.3 V rail, minimum ? A
+    - 12 V rail, derived from exterior PSU, minimum 1 A
+    - 5 V rail, minimum 500 mA(?)
+    - 3.3 V rail, minimum 500 mA(?)
     - Power switch
     - LED indicators
     - (optional) Li battery boost and charge
