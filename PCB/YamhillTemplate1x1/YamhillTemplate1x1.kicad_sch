@@ -1,0 +1,20 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 49f62868-e637-46b0-b067-683e675fe4a7)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "Project Yamhill")
+    (rev "A")
+    (company "Etherkit")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
