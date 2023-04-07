@@ -1,0 +1,25 @@
+Circuit: * Z:\home\jason\Nextcloud\Etherkit\git\Yamhill\SPICE\AFAmp.asc
+
+WARNING: Node OUT is floating.
+
+WARNING: Less than two connections to node out.  This node is used by c5.
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Apr  6 11:13:40 2023
+Total elapsed time: 0.111 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 18690
+traniter = 18646
+tranpoints = 8912
+accept = 5815
+rejected = 3097
+matrix size = 25
+fillins = 31
+solver = Normal
+Avg thread counts: 1.1/1.2/1.2/1.1
+Matrix Compiler1: 2.77 KB object code size  0.6/0.3/[0.3]
+Matrix Compiler2: 2.78 KB object code size  0.2/0.3/[0.2]
+
