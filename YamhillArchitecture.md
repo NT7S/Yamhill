@@ -1,7 +1,7 @@
 # Project Yamhill Architecture
 Jason Milldrum, NT7S<br/>
 Etherkit LLC<br/>
-Revision: 7 April 2023
+Revision: 6 July 2023
 
 ## Overview
 Project Yamhill is the successor to the Willamette Transceiver, also known as the qrp-l Group Project. The purpose of this endeavor is to provide a platform to learn about radio electronics at a system level. Modules that correspond to the blocks of a block diagram will be the basis upon which different types of radio designs will be created. A modular 3D printed backplane will be the chassis, user interface, and power supply for the radio experiments. The desired goal is to have a high-performance CW QRP transceiver at the end of the main project run, however there would be the capacity to build many other types of radios from the blocks as desired, such as a SSB transceiver, run more transmit power with a linear amplifier that can provide 20 watts or more, data radio, simple receiver, different architectures such as a phasing receiver, etc.
@@ -30,20 +30,24 @@ DC power is to be provided by and distributed through a PCB that integrates with
 
 ### Front Panel
 A front panel PCB will hold most of the user interface and brains of Project Yamhill. This PCB will be populated with:
-- Arduino-compatible microcontroller
-- Color LCD display module
+- Raspberry Pi Pico microcontroller
+- Color LCD display module with touchscreen
 - Large tuning encoder
-- Two smaller encoders (for multifunction, possible AF gain)
+- Smaller encoders (for multifunction usage)
 - AF gain pot if not encoder controlled
 - A plethora of microswitch pushbuttons
 - A handful of status LEDs
-- Two 3.5 mm TRS jacks
+- ADC channels for measuring things like PSU voltage, SWR, etc.
+- Two 3.5 mm TRS jacks (Morse paddle and headphones)
 - Microphone jack (RJ-45?)
 - AF Power Amplifier
 - Microphone Amplifier
 - Speaker (not sure if front-firing or chassis-mounted)
+- Transmit, mute, and extra GPIO pins available on pin headers for project use
+- Audio and microphone signals routed to Pico ADC pins for future DSP usage
+- Pico DAC pin routed to AF power amp for sidetone use and future DSP usage
 
-The front panel PCB will have a USB connection for programming the microcontroller, as well as at least two UARTs available for rig control, debugging purposes, etc., signal routeable to the back panel USB connector.
+The front panel PCB will have a USB connection for programming the microcontroller, as well as at least one UART available for rig control, debugging purposes, etc.
 
 ## Block Modules
 Block modules are self-contained PCBs that will perform the functions of a block on the block diagram of a radio. Most components will be SMT, and those modules sold by Etherkit will have the SMT components installed by the manufacturer. Through-hole components such as toroidal inductors and board connectors will be installed by the end user.
@@ -52,7 +56,7 @@ Block modules are self-contained PCBs that will perform the functions of a block
 - PSU/Power Distribution (special case, backplane integration)
     - 12 V rail, derived from exterior PSU, minimum 1 A
     - 5 V rail, minimum 500 mA(?)
-    - 3.3 V rail, minimum 500 mA(?)
+    - 3.3 V rail, minimum 100 mA
     - LED indicators
     - Reverse polarity and overcurrent protection
     - Inputs: 12 VDC, 2 A
