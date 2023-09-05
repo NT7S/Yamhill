@@ -1,7 +1,7 @@
 # Project Yamhill Architecture
 Jason Milldrum, NT7S<br/>
 Etherkit LLC<br/>
-Revision: 6 July 2023
+Revision: 1 August 2023
 
 ## Overview
 Project Yamhill is the successor to the Willamette Transceiver, also known as the qrp-l Group Project. The purpose of this endeavor is to provide a platform to learn about radio electronics at a system level. Modules that correspond to the blocks of a block diagram will be the basis upon which different types of radio designs will be created. A modular 3D printed backplane will be the chassis, user interface, and power supply for the radio experiments. The desired goal is to have a high-performance CW QRP transceiver at the end of the main project run, however there would be the capacity to build many other types of radios from the blocks as desired, such as a SSB transceiver, run more transmit power with a linear amplifier that can provide 20 watts or more, data radio, simple receiver, different architectures such as a phasing receiver, etc.
@@ -75,6 +75,7 @@ Block modules are self-contained PCBs that will perform the functions of a block
 - Double-balanced Diode Ring Mixer/Modulator
     - Option for higher than level 7?
 - KISS Mixer
+- Tayloe Detector
 - Crystal Ladder IF Filter
     - Various bandwidths available for SSB, CW, roofing
 - IF Amplifier with AGC
