@@ -1,7 +1,7 @@
 # Project Yamhill Architecture
 Jason Milldrum, NT7S<br/>
 Etherkit LLC<br/>
-Revision: 1 August 2023
+Revision: 4 November 2023
 
 ## Overview
 Project Yamhill is the successor to the Willamette Transceiver, also known as the qrp-l Group Project. The purpose of this endeavor is to provide a platform to learn about radio electronics at a system level. Modules that correspond to the blocks of a block diagram will be the basis upon which different types of radio designs will be created. A modular 3D printed backplane will be the chassis, user interface, and power supply for the radio experiments. The desired goal is to have a high-performance CW QRP transceiver at the end of the main project run, however there would be the capacity to build many other types of radios from the blocks as desired, such as a SSB transceiver, run more transmit power with a linear amplifier that can provide 20 watts or more, data radio, simple receiver, different architectures such as a phasing receiver, etc.
@@ -50,7 +50,7 @@ A front panel PCB will hold most of the user interface and brains of Project Yam
 The front panel PCB will have a USB connection for programming the microcontroller, as well as at least one UART available for rig control, debugging purposes, etc.
 
 ## Block Modules
-Block modules are self-contained PCBs that will perform the functions of a block on the block diagram of a radio. Most components will be SMT, and those modules sold by Etherkit will have the SMT components installed by the manufacturer. Through-hole components such as toroidal inductors and board connectors will be installed by the end user.
+Block modules are self-contained PCBs that will perform the functions of a block on the block diagram of a radio. Most components on front panel PCB will be SMT, and those boards sold by Etherkit will have the SMT components installed by the manufacturer. Most individual modules will be through-hole, unless there are no non-SMT options for a component.
 
 ### List
 - PSU/Power Distribution (special case, backplane integration)
@@ -67,8 +67,12 @@ Block modules are self-contained PCBs that will perform the functions of a block
     - AF gain control
     - Sidetone injection
     - Transceive muting
-- AF Preamplifier
+- AF Preamplifier For DC receiver
+    - Based on W7ZOI AF Feedback Amplifier
     - ~40 dB AF gain for use in a DC receiver
+    - Diplexer on input for good termination of mixer
+- Grounded Gate JFET RF Preamp
+    - Mainly for direct conversion receiver front end
 - Microphone Amplifier (include in front panel PCB)
 - Audio Filter
     - DSP CODEC?
