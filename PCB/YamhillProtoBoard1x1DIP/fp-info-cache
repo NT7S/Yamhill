@@ -1,4 +1,4 @@
-22702917570176148
+22711433190847641
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55502,6 +55502,41 @@ Mini SOP10 10pins pitch 0.5mm
 0
 10
 10
+EtherkitKicadLibrary
+ManhattanPad_1x1
+
+
+0
+2
+1
+EtherkitKicadLibrary
+ManhattanPad_1x3
+
+
+0
+4
+1
+EtherkitKicadLibrary
+ManhattanPad_20mm_Strip
+
+
+0
+8
+1
+EtherkitKicadLibrary
+ManhattanPad_30mm_Strip
+
+
+0
+10
+1
+EtherkitKicadLibrary
+ManhattanPad_40mm_Strip
+
+
+0
+14
+1
 EtherkitKicadLibrary
 Molex_0731713150
 

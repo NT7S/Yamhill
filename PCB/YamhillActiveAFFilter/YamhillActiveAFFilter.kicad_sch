@@ -1451,7 +1451,7 @@
     (effects (font (size 2 2) (thickness 0.254) bold) (justify left bottom))
     (uuid a0b62f30-8c35-4891-b3bb-59764bb055d9)
   )
-  (text "All capacitors in signal path (C1, C2, C3, C5, C6, C7, C8, C9, C10, C11)\nare film capacitors"
+  (text "All capacitors in signal path (C1, C2, C3, C5, C6, C7, C8, C9, C10, C11)\nare film or aluminum organic polymer for high values."
     (at 38.1 161.29 0)
     (effects (font (size 2 2) italic) (justify left bottom))
     (uuid a2f1e3d4-06c2-4364-a37e-38b3ba9dd5fd)
@@ -2081,7 +2081,7 @@
     (property "Value" "C_Small" (at 180.594 60.706 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 176.657 63.5 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" (at 176.657 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.657 63.5 0)
@@ -2722,7 +2722,7 @@
     (property "Value" "C_Small" (at 231.394 60.706 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 227.457 63.5 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" (at 227.457 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 227.457 63.5 0)
