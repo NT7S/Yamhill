@@ -2,7 +2,7 @@
 
   (uuid c09b9381-71d9-4300-8f40-e93281c4978f)
 
-  (paper "USLetter")
+  (paper "A4")
 
   (title_block
     (title "Project Yamhill Front Panel")

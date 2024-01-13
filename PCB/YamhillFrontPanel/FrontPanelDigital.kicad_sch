@@ -2,7 +2,7 @@
 
   (uuid 75365511-0d7a-4617-9dd1-e18b5ecd2974)
 
-  (paper "USLetter")
+  (paper "A4")
 
   (title_block
     (title "Project Yamhill Front Panel")
@@ -4365,7 +4365,7 @@
   (symbol (lib_id "power:GNDD") (at 230.378 18.796 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 007ef8dc-23a3-4ade-afcb-b96292836d52)
-    (property "Reference" "#PWR018" (at 230.378 25.146 0)
+    (property "Reference" "#PWR01" (at 230.378 25.146 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 230.378 23.876 0)
@@ -4380,9 +4380,6 @@
     (pin "1" (uuid a0f6af57-89a8-4ff3-8873-3bf735e84cd4))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR01") (unit 1)
         )
@@ -4393,7 +4390,7 @@
   (symbol (lib_id "EtherkitKicadLibrary:OSCILLATOR") (at 176.022 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00d98e94-e736-4908-9ccd-cbecc04a2d35)
-    (property "Reference" "U3" (at 183.134 122.936 0)
+    (property "Reference" "U4" (at 183.134 122.936 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ATX-H11-F-25.000MHZ-F25-T" (at 187.452 124.968 0)
@@ -4411,9 +4408,6 @@
     (pin "4" (uuid b0945ad1-04ea-4842-9735-e0e3090e0b6d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "U3") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "U4") (unit 1)
         )
@@ -4424,7 +4418,7 @@
   (symbol (lib_id "power:+5V") (at 246.38 18.796 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 020bf913-a6b3-49ca-a27d-c977756cfaf9)
-    (property "Reference" "#PWR019" (at 246.38 22.606 0)
+    (property "Reference" "#PWR02" (at 246.38 22.606 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 246.38 14.986 0)
@@ -4439,9 +4433,6 @@
     (pin "1" (uuid 86a5687c-5f3a-4e07-a93e-4724bc7d58d8))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR02") (unit 1)
         )
@@ -4452,7 +4443,7 @@
   (symbol (lib_id "power:GNDD") (at 104.648 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03de454d-373f-4a5a-b283-bfe61fa0f37e)
-    (property "Reference" "#PWR014" (at 104.648 90.17 0)
+    (property "Reference" "#PWR043" (at 104.648 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 99.822 84.836 0)
@@ -4467,9 +4458,6 @@
     (pin "1" (uuid 08caa5e5-8e72-4c44-870e-50f7d62d8344))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR014") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR043") (unit 1)
         )
@@ -4480,7 +4468,7 @@
   (symbol (lib_id "EtherkitKicadLibrary:Si5351BC") (at 218.186 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06655b4b-90dc-40b6-b0ed-c890fe0874a4)
-    (property "Reference" "U2" (at 226.568 117.348 0)
+    (property "Reference" "U5" (at 226.568 117.348 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Si5351C" (at 229.362 119.888 0)
@@ -4515,9 +4503,6 @@
     (pin "9" (uuid a6a818eb-6d1c-493c-8988-0f9bfd29eb1a))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "U2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "U5") (unit 1)
         )
@@ -4553,7 +4538,7 @@
   (symbol (lib_id "Device:R_US") (at 159.385 156.972 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07ee19b0-a2a1-4236-9bc6-9f7a5eb21b61)
-    (property "Reference" "R9" (at 161.163 156.337 0)
+    (property "Reference" "R18" (at 161.163 156.337 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 161.29 158.369 0)
@@ -4569,9 +4554,6 @@
     (pin "2" (uuid e153e8f1-ebc7-45d5-85a0-d06f540d608f))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R9") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R18") (unit 1)
         )
@@ -4582,7 +4564,7 @@
   (symbol (lib_id "power:GNDD") (at 15.24 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08706871-69ba-4e57-b7c9-89a25ba90db9)
-    (property "Reference" "#PWR011" (at 15.24 189.23 0)
+    (property "Reference" "#PWR0104" (at 15.24 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 15.24 187.96 0)
@@ -4597,9 +4579,6 @@
     (pin "1" (uuid 7d9a43d5-8673-431b-a3c4-f322a9299c9f))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR011") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR0104") (unit 1)
         )
@@ -4610,7 +4589,7 @@
   (symbol (lib_id "Device:R_US") (at 49.403 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 093358d6-93e5-4461-b8a6-c5404fa339af)
-    (property "Reference" "R1" (at 51.562 100.33 0)
+    (property "Reference" "R2" (at 51.562 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 51.562 102.87 0)
@@ -4626,9 +4605,6 @@
     (pin "2" (uuid 0b3f65a0-8152-41ca-a057-f410a3cbf27d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R2") (unit 1)
         )
@@ -4639,7 +4615,7 @@
   (symbol (lib_id "power:+3.3V") (at 238.506 151.638 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09b29cf0-d745-4935-8241-08ca2388f8de)
-    (property "Reference" "#PWR031" (at 238.506 155.448 0)
+    (property "Reference" "#PWR086" (at 238.506 155.448 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 239.014 147.828 0)
@@ -4654,9 +4630,6 @@
     (pin "1" (uuid 9e3f2ebf-0b83-4e65-8b22-da9accfd992b))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR031") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR086") (unit 1)
         )
@@ -4667,7 +4640,7 @@
   (symbol (lib_id "Device:R_US") (at 187.706 140.208 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0baf4d39-6533-44dc-9fbd-c5accf5d83ee)
-    (property "Reference" "R7" (at 189.23 135.509 90)
+    (property "Reference" "R13" (at 189.23 135.509 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 188.976 137.668 90)
@@ -4683,9 +4656,6 @@
     (pin "2" (uuid 4940e7d0-4add-44c3-b7ac-f4bfe36ceb93))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R7") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R13") (unit 1)
         )
@@ -4696,7 +4666,7 @@
   (symbol (lib_id "power:GNDD") (at 32.004 174.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c044f5e-45ea-48fe-82e1-54b816cff6fd)
-    (property "Reference" "#PWR022" (at 32.004 180.975 0)
+    (property "Reference" "#PWR099" (at 32.004 180.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 32.766 178.181 0)
@@ -4711,9 +4681,6 @@
     (pin "1" (uuid cb3a9dad-1ee5-40c6-8e48-6ce7f122e7ab))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR099") (unit 1)
         )
@@ -4724,7 +4691,7 @@
   (symbol (lib_id "power:GNDD") (at 83.82 133.604 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cf3716a-4ec7-44bc-8dce-4c0124ab39b5)
-    (property "Reference" "#PWR022" (at 83.82 139.954 0)
+    (property "Reference" "#PWR075" (at 83.82 139.954 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 83.82 138.684 0)
@@ -4739,9 +4706,6 @@
     (pin "1" (uuid 375533c0-09cc-48d1-a752-bd71e9a76af0))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR075") (unit 1)
         )
@@ -4752,7 +4716,7 @@
   (symbol (lib_id "MCU_RaspberryPi_and_Boards:Pico") (at 133.858 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d812326-85f1-4387-98bf-77342ae4c33c)
-    (property "Reference" "U1" (at 133.858 59.436 0)
+    (property "Reference" "U3" (at 133.858 59.436 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Pico" (at 133.858 61.976 0)
@@ -4809,9 +4773,6 @@
     (pin "9" (uuid 63452d9c-1f6c-4625-bc19-e1435c610767))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "U1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "U3") (unit 1)
         )
@@ -4822,7 +4783,7 @@
   (symbol (lib_id "Device:R_US") (at 176.022 118.364 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0daa044b-654f-4784-ba44-f85b1be1026a)
-    (property "Reference" "R1" (at 178.562 117.729 0)
+    (property "Reference" "R9" (at 178.562 117.729 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47" (at 178.562 120.269 0)
@@ -4838,9 +4799,6 @@
     (pin "2" (uuid 32dbb7b3-aa94-4871-832b-0a5133b694a6))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R9") (unit 1)
         )
@@ -4851,7 +4809,7 @@
   (symbol (lib_id "power:GNDD") (at 102.108 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e7c04a0-501e-4340-b8a5-e6161601124d)
-    (property "Reference" "#PWR015" (at 102.108 77.47 0)
+    (property "Reference" "#PWR029" (at 102.108 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 102.108 76.2 0)
@@ -4866,9 +4824,6 @@
     (pin "1" (uuid cbacc975-4116-4635-8e4d-f9f0e164bfff))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR015") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR029") (unit 1)
         )
@@ -4879,7 +4834,7 @@
   (symbol (lib_id "power:GNDD") (at 77.724 148.082 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0efc20d7-870f-4e86-9f74-79e35fdc5c88)
-    (property "Reference" "#PWR011" (at 77.724 154.432 0)
+    (property "Reference" "#PWR084" (at 77.724 154.432 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 81.788 149.098 0)
@@ -4894,9 +4849,6 @@
     (pin "1" (uuid ef5a8576-51ef-4a5d-ba25-c88ce2eb5e1b))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR011") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR084") (unit 1)
         )
@@ -4907,7 +4859,7 @@
   (symbol (lib_id "power:GNDD") (at 260.604 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10d9e6c3-753a-4bc5-8481-53010c6893e7)
-    (property "Reference" "#PWR069" (at 260.604 102.87 0)
+    (property "Reference" "#PWR054" (at 260.604 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 256.032 98.298 0)
@@ -4922,9 +4874,6 @@
     (pin "1" (uuid 7335e2f4-6c61-4cb0-8ab3-bcc16b1102e1))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR069") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR054") (unit 1)
         )
@@ -4935,7 +4884,7 @@
   (symbol (lib_id "power:+3.3V") (at 97.79 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 141fa12b-2999-42b7-b126-1f13c918f27d)
-    (property "Reference" "#PWR021" (at 97.79 181.61 0)
+    (property "Reference" "#PWR0100" (at 97.79 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 97.79 173.99 0)
@@ -4950,9 +4899,6 @@
     (pin "1" (uuid 70707486-6f27-4157-a254-d2ee0dd48591))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR0100") (unit 1)
         )
@@ -4963,7 +4909,7 @@
   (symbol (lib_id "power:+5V") (at 108.839 133.477 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1421704b-b782-4b36-95a0-4c60e38a4579)
-    (property "Reference" "#PWR016" (at 108.839 137.287 0)
+    (property "Reference" "#PWR076" (at 108.839 137.287 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 108.839 129.667 0)
@@ -4978,9 +4924,6 @@
     (pin "1" (uuid 79e79da4-6c06-4415-a6ac-96377c496ab7))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR076") (unit 1)
         )
@@ -4991,7 +4934,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 153.416 51.308 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 172163c0-d260-41df-af12-9b76471ed030)
-    (property "Reference" "J1" (at 158.75 50.038 90)
+    (property "Reference" "J4" (at 158.75 50.038 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "USB VBUS" (at 158.75 52.578 90)
@@ -5007,9 +4950,6 @@
     (pin "2" (uuid bf774d37-a23e-488d-be53-68501819c212))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J4") (unit 1)
         )
@@ -5020,7 +4960,7 @@
   (symbol (lib_id "power:GND") (at 203.454 39.878 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18277aa1-9c8c-4e27-9576-19d1169ee908)
-    (property "Reference" "#PWR04" (at 203.454 46.228 0)
+    (property "Reference" "#PWR020" (at 203.454 46.228 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.454 44.958 0)
@@ -5035,9 +4975,6 @@
     (pin "1" (uuid 91c6ab8a-1b8d-4b71-997d-294eef5aa1fa))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR020") (unit 1)
         )
@@ -5048,7 +4985,7 @@
   (symbol (lib_id "Device:R_US") (at 218.186 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c1fd461-2a57-4c7c-8314-562342335ce2)
-    (property "Reference" "R2" (at 220.726 102.235 0)
+    (property "Reference" "R5" (at 220.726 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47" (at 220.726 104.775 0)
@@ -5064,9 +5001,6 @@
     (pin "2" (uuid e911a6cf-78c3-4738-b391-241f74e426be))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R5") (unit 1)
         )
@@ -5077,7 +5011,7 @@
   (symbol (lib_id "Device:C_Small") (at 83.82 131.064 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c8d6c79-1be9-4436-ba84-424725924a40)
-    (property "Reference" "C2" (at 86.106 130.302 0)
+    (property "Reference" "C13" (at 86.106 130.302 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 86.36 132.334 0)
@@ -5093,9 +5027,6 @@
     (pin "2" (uuid 1956b5fc-6bd1-42c2-a35b-a20035650b18))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C13") (unit 1)
         )
@@ -5122,9 +5053,6 @@
     (pin "2" (uuid 99e8b0c6-a85b-497c-bccc-8cfdfd97b659))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "D1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "D1") (unit 1)
         )
@@ -5135,7 +5063,7 @@
   (symbol (lib_id "Device:C_Small") (at 35.56 33.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ea6933d-6f30-4455-b926-1195c1558fdd)
-    (property "Reference" "C21" (at 37.719 32.512 0)
+    (property "Reference" "C6" (at 37.719 32.512 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 37.846 34.544 0)
@@ -5151,9 +5079,6 @@
     (pin "2" (uuid 4be3515a-71cc-4e64-a853-1811733034b3))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C21") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C6") (unit 1)
         )
@@ -5164,7 +5089,7 @@
   (symbol (lib_id "Device:C_Small") (at 134.874 25.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2254196c-9355-4485-b987-3b9dde95dd34)
-    (property "Reference" "C22" (at 127.254 24.892 0)
+    (property "Reference" "C3" (at 127.254 24.892 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 127.254 26.924 0)
@@ -5180,9 +5105,6 @@
     (pin "2" (uuid 62495628-f407-416b-825a-817b8056ac34))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C22") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C3") (unit 1)
         )
@@ -5193,7 +5115,7 @@
   (symbol (lib_id "power:GNDD") (at 70.739 87.249 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2256141d-8a18-43ee-9531-1836ff891499)
-    (property "Reference" "#PWR080" (at 70.739 93.599 0)
+    (property "Reference" "#PWR047" (at 70.739 93.599 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 74.041 87.249 0)
@@ -5208,9 +5130,6 @@
     (pin "1" (uuid 5c963878-1e15-4557-8bde-9ded7af7b341))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR047") (unit 1)
         )
@@ -5221,7 +5140,7 @@
   (symbol (lib_id "power:GNDD") (at 25.654 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23914567-fb0d-4335-9663-a518200ca4a7)
-    (property "Reference" "#PWR080" (at 25.654 116.84 0)
+    (property "Reference" "#PWR061" (at 25.654 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 28.956 110.49 0)
@@ -5236,9 +5155,6 @@
     (pin "1" (uuid 771b9098-4394-47dc-9568-f6a1f627246b))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR061") (unit 1)
         )
@@ -5249,7 +5165,7 @@
   (symbol (lib_id "power:GNDD") (at 133.858 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24611e8e-7d64-469e-97d9-2782988d7af0)
-    (property "Reference" "#PWR011" (at 133.858 125.73 0)
+    (property "Reference" "#PWR070" (at 133.858 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 133.858 123.19 0)
@@ -5264,9 +5180,6 @@
     (pin "1" (uuid 7b97769b-32fa-46a2-96ff-b4d3d0036e39))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR011") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR070") (unit 1)
         )
@@ -5277,7 +5190,7 @@
   (symbol (lib_id "Device:R_US") (at 135.89 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2509cb05-7d80-4955-b4ea-4312fdf8f501)
-    (property "Reference" "R8" (at 130.81 188.468 0)
+    (property "Reference" "R22" (at 130.81 188.468 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330" (at 130.81 190.754 0)
@@ -5293,9 +5206,6 @@
     (pin "2" (uuid d8e6621b-b673-4524-b22a-d80ffe180e11))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R8") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R22") (unit 1)
         )
@@ -5306,7 +5216,7 @@
   (symbol (lib_id "Device:C_Small") (at 160.782 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26b8784f-276a-468d-953d-408ba3d99a1f)
-    (property "Reference" "C2" (at 153.162 126.492 0)
+    (property "Reference" "C12" (at 153.162 126.492 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 153.162 128.524 0)
@@ -5322,9 +5232,6 @@
     (pin "2" (uuid 03027323-b75e-41a8-88dd-71cd1c1b8184))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C12") (unit 1)
         )
@@ -5335,7 +5242,7 @@
   (symbol (lib_id "power:GNDD") (at 172.974 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26ba7f45-ec86-428a-b35b-cf692f297adb)
-    (property "Reference" "#PWR067" (at 172.974 34.29 0)
+    (property "Reference" "#PWR012" (at 172.974 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 172.974 33.02 0)
@@ -5350,9 +5257,6 @@
     (pin "1" (uuid 1dabf882-bb54-4715-8f9e-d0eb48f72871))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR067") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR012") (unit 1)
         )
@@ -5363,7 +5267,7 @@
   (symbol (lib_id "power:+5V") (at 131.699 133.477 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2745fc64-342f-4cab-b1c5-97c8a8c0512e)
-    (property "Reference" "#PWR016" (at 131.699 137.287 0)
+    (property "Reference" "#PWR077" (at 131.699 137.287 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 131.699 129.667 0)
@@ -5378,9 +5282,6 @@
     (pin "1" (uuid 6dde5ed3-9d2f-4c94-8a90-4f1a4970993d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR077") (unit 1)
         )
@@ -5419,7 +5320,7 @@
   (symbol (lib_id "power:GNDD") (at 183.134 75.438 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a46f111-55ff-46a6-997b-6fcafed10022)
-    (property "Reference" "#PWR080" (at 183.134 81.788 0)
+    (property "Reference" "#PWR034" (at 183.134 81.788 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 186.436 75.438 0)
@@ -5434,9 +5335,6 @@
     (pin "1" (uuid e443934e-9d6e-4385-b063-db6d3858b37d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR034") (unit 1)
         )
@@ -5447,7 +5345,7 @@
   (symbol (lib_id "Device:C_Small") (at 107.188 25.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2aae49d3-d48c-4c65-b652-271c27f2c7f8)
-    (property "Reference" "C24" (at 99.568 24.892 0)
+    (property "Reference" "C2" (at 99.568 24.892 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 99.568 26.924 0)
@@ -5463,9 +5361,6 @@
     (pin "2" (uuid b991ba3b-fdd4-400c-b6e0-55c33000398f))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C24") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C2") (unit 1)
         )
@@ -5476,7 +5371,7 @@
   (symbol (lib_id "power:GNDD") (at 67.183 115.443 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c8b532e-4164-4e2f-ba38-f066a3217703)
-    (property "Reference" "#PWR080" (at 67.183 121.793 0)
+    (property "Reference" "#PWR066" (at 67.183 121.793 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 70.485 115.443 0)
@@ -5491,9 +5386,6 @@
     (pin "1" (uuid c7a4a701-7753-4cdc-a63c-c767e70c3a63))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR066") (unit 1)
         )
@@ -5504,7 +5396,7 @@
   (symbol (lib_id "power:+3.3V") (at 83.82 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ce8e1d4-85bb-41af-a390-602943ee9fe0)
-    (property "Reference" "#PWR021" (at 83.82 130.81 0)
+    (property "Reference" "#PWR073" (at 83.82 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 83.82 123.19 0)
@@ -5519,9 +5411,6 @@
     (pin "1" (uuid 01ef274a-73e6-4687-83c5-83e1abd36251))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR073") (unit 1)
         )
@@ -5532,7 +5421,7 @@
   (symbol (lib_id "Device:C_Small") (at 172.974 25.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cfc0c79-d805-429c-a250-83973c5000c9)
-    (property "Reference" "C25" (at 165.354 24.892 0)
+    (property "Reference" "C4" (at 165.354 24.892 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 165.354 26.924 0)
@@ -5548,9 +5437,6 @@
     (pin "2" (uuid 479dbfa5-738f-4064-86be-20b5013e86cf))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C25") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C4") (unit 1)
         )
@@ -5583,9 +5469,6 @@
     (pin "2" (uuid 495f8c05-5a4b-4669-8d22-2dc1c1934624))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "L1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "L1") (unit 1)
         )
@@ -5596,7 +5479,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 239.014 79.883 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2db3bcf2-d514-404e-8d75-2d893908e388)
-    (property "Reference" "J12" (at 233.299 71.755 0)
+    (property "Reference" "J9" (at 233.299 71.755 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Osc Outputs" (at 233.172 73.914 0)
@@ -5620,9 +5503,6 @@
     (pin "4" (uuid 56266e24-35de-42af-9e69-c95751378217))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J12") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J9") (unit 1)
         )
@@ -5633,7 +5513,7 @@
   (symbol (lib_id "power:+3.3V") (at 218.186 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ff3017b-0eb5-4824-a518-c13487807683)
-    (property "Reference" "#PWR023" (at 218.186 102.87 0)
+    (property "Reference" "#PWR056" (at 218.186 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 218.694 95.25 0)
@@ -5648,9 +5528,6 @@
     (pin "1" (uuid f3f99c18-8b97-4710-bad0-64850b743da9))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR023") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR056") (unit 1)
         )
@@ -5661,7 +5538,7 @@
   (symbol (lib_id "Device:C_Small") (at 70.739 200.406 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31e4f898-0286-45d1-b492-2e0cb8d432ea)
-    (property "Reference" "C1" (at 70.7453 193.675 90)
+    (property "Reference" "C45" (at 70.7453 193.675 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 70.7453 196.215 90)
@@ -5677,9 +5554,6 @@
     (pin "2" (uuid 4a245ef5-15e3-4c95-a2f4-c708fa71fb7d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C45") (unit 1)
         )
@@ -5690,7 +5564,7 @@
   (symbol (lib_id "power:GNDD") (at 25.654 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 324d8405-adb6-44c5-9257-7bfd98538946)
-    (property "Reference" "#PWR080" (at 25.654 111.76 0)
+    (property "Reference" "#PWR058" (at 25.654 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 28.956 105.41 0)
@@ -5705,9 +5579,6 @@
     (pin "1" (uuid ebb53261-0306-45db-8792-d1d4a66f16a4))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR058") (unit 1)
         )
@@ -5718,7 +5589,7 @@
   (symbol (lib_id "power:GNDD") (at 237.744 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32b55943-45cd-4ee5-acad-9bdc3e40df48)
-    (property "Reference" "#PWR028" (at 237.744 120.65 0)
+    (property "Reference" "#PWR064" (at 237.744 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 237.744 119.38 0)
@@ -5733,9 +5604,6 @@
     (pin "1" (uuid 954a86ef-7c08-4ee0-860f-281bddb3b6b2))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR028") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR064") (unit 1)
         )
@@ -5794,7 +5662,7 @@
   (symbol (lib_id "Device:C_Small") (at 32.004 184.785 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36788989-6232-4685-a512-05b15a3ce68a)
-    (property "Reference" "C2" (at 25.908 184.785 0)
+    (property "Reference" "C22" (at 25.908 184.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 26.035 186.69 0)
@@ -5810,9 +5678,6 @@
     (pin "2" (uuid fa736772-0271-49c9-8371-3ab235c4a9c1))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C22") (unit 1)
         )
@@ -5842,9 +5707,6 @@
     (pin "S2" (uuid 667fcfda-b61e-4aff-9d47-d53df224d456))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "SW1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "SW1") (unit 1)
         )
@@ -5891,7 +5753,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 176.022 80.518 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ce9bf51-5c92-4c58-83b5-dd0f144f57f0)
-    (property "Reference" "J13" (at 176.022 67.31 0)
+    (property "Reference" "J10" (at 176.022 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Ext. ADC" (at 176.022 69.85 0)
@@ -5913,9 +5775,6 @@
     (pin "8" (uuid aa9612c7-543b-474d-a679-ddce4bb993f8))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J13") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J10") (unit 1)
         )
@@ -5926,7 +5785,7 @@
   (symbol (lib_id "power:GNDD") (at 20.447 32.512 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3dcfc4b4-7ba1-473f-86d9-9d202ad8ab51)
-    (property "Reference" "#PWR084" (at 20.447 38.862 0)
+    (property "Reference" "#PWR013" (at 20.447 38.862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 20.447 37.592 0)
@@ -5941,9 +5800,6 @@
     (pin "1" (uuid 8272c58f-6eab-4bc2-82a1-ff949c6fe5d3))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR084") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR013") (unit 1)
         )
@@ -5954,7 +5810,7 @@
   (symbol (lib_id "power:GNDD") (at 104.394 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 426d79d8-09c1-4b42-8663-f862d4956e32)
-    (property "Reference" "#PWR013" (at 104.394 102.87 0)
+    (property "Reference" "#PWR052" (at 104.394 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 99.314 97.536 0)
@@ -5969,9 +5825,6 @@
     (pin "1" (uuid 31ae5f76-1d84-45ca-8a33-7bb60ca78d33))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR013") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR052") (unit 1)
         )
@@ -5982,7 +5835,7 @@
   (symbol (lib_id "power:GNDD") (at 15.24 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 429d6bc7-7cdd-45bc-a08b-9f14f6d3e7af)
-    (property "Reference" "#PWR011" (at 15.24 201.93 0)
+    (property "Reference" "#PWR0106" (at 15.24 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 15.24 200.66 0)
@@ -5997,9 +5850,6 @@
     (pin "1" (uuid 5d0218f6-e418-4485-9c47-71a5fdb664ec))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR011") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR0106") (unit 1)
         )
@@ -6010,7 +5860,7 @@
   (symbol (lib_id "power:GNDD") (at 183.134 80.518 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4372b0e2-8320-44e9-88a8-a14dcc056f9f)
-    (property "Reference" "#PWR081" (at 183.134 86.868 0)
+    (property "Reference" "#PWR038" (at 183.134 86.868 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 186.436 80.518 0)
@@ -6025,9 +5875,6 @@
     (pin "1" (uuid a355e5b8-33b0-4f3f-85dd-057bfdf155b5))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR081") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR038") (unit 1)
         )
@@ -6038,7 +5885,7 @@
   (symbol (lib_id "power:GNDD") (at 69.088 27.686 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43ca0c27-abc2-49fb-9657-f2d03ffa09fd)
-    (property "Reference" "#PWR060" (at 69.088 34.036 0)
+    (property "Reference" "#PWR09" (at 69.088 34.036 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 69.088 32.766 0)
@@ -6053,9 +5900,6 @@
     (pin "1" (uuid 23108d8b-5853-411d-9d25-a7e55b0dba68))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR060") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR09") (unit 1)
         )
@@ -6066,7 +5910,7 @@
   (symbol (lib_id "power:GNDD") (at 25.654 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44725f43-3cc1-4fd1-859d-ebc5082274d2)
-    (property "Reference" "#PWR080" (at 25.654 121.92 0)
+    (property "Reference" "#PWR067" (at 25.654 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 28.956 115.57 0)
@@ -6081,9 +5925,6 @@
     (pin "1" (uuid a25bcd4a-f2aa-45df-a60b-481f66ede6fb))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR067") (unit 1)
         )
@@ -6094,7 +5935,7 @@
   (symbol (lib_id "Device:C_Small") (at 113.919 137.287 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 449ea148-2553-4525-a833-8cefc907136f)
-    (property "Reference" "C2" (at 116.205 136.525 0)
+    (property "Reference" "C16" (at 116.205 136.525 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 116.459 138.557 0)
@@ -6110,9 +5951,6 @@
     (pin "2" (uuid 33cc3e4d-1681-45c7-9b17-c07cf0dcb2f0))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C16") (unit 1)
         )
@@ -6123,7 +5961,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 260.604 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44a7f471-45af-4e9f-8102-96482567bafd)
-    (property "Reference" "J10" (at 260.2866 85.852 0)
+    (property "Reference" "J11" (at 260.2866 85.852 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CLK2" (at 260.2866 88.392 0)
@@ -6139,9 +5977,6 @@
     (pin "2" (uuid 4fa14643-0245-4022-8ab1-cb4b57b7b1d3))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J10") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J11") (unit 1)
         )
@@ -6152,7 +5987,7 @@
   (symbol (lib_id "power:GNDD") (at 38.1 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 457c5025-26b6-4e11-b203-dbd2b5caf850)
-    (property "Reference" "#PWR080" (at 38.1 85.09 0)
+    (property "Reference" "#PWR037" (at 38.1 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 41.402 78.74 0)
@@ -6167,9 +6002,6 @@
     (pin "1" (uuid c07cc7a5-33b4-45cd-add1-227002a9d41a))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR037") (unit 1)
         )
@@ -6180,7 +6012,7 @@
   (symbol (lib_id "power:GNDD") (at 163.068 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45ba01d8-bf9b-4ba0-95b7-57c90873158b)
-    (property "Reference" "#PWR063" (at 163.068 33.02 0)
+    (property "Reference" "#PWR08" (at 163.068 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 163.068 31.75 0)
@@ -6195,9 +6027,6 @@
     (pin "1" (uuid 4992f3e4-965d-4625-a234-c1b29c32cf9e))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR063") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR08") (unit 1)
         )
@@ -6208,7 +6037,7 @@
   (symbol (lib_id "power:GNDD") (at 70.739 82.169 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48f2ba34-15d1-4ed8-b7ac-13df9536eca3)
-    (property "Reference" "#PWR080" (at 70.739 88.519 0)
+    (property "Reference" "#PWR040" (at 70.739 88.519 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 74.041 82.169 0)
@@ -6223,9 +6052,6 @@
     (pin "1" (uuid e9e9cb02-e4f6-4b85-9926-07515ce676ae))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR040") (unit 1)
         )
@@ -6236,7 +6062,7 @@
   (symbol (lib_id "Device:R_US") (at 189.992 156.972 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c21da5c-c791-4fa0-aa91-e3c49cff73ff)
-    (property "Reference" "R9" (at 191.389 156.337 0)
+    (property "Reference" "R53" (at 191.389 156.337 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 191.262 158.623 0)
@@ -6252,9 +6078,6 @@
     (pin "2" (uuid 3f7ebc63-ee31-4720-9943-1d4ab2426731))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R9") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R53") (unit 1)
         )
@@ -6265,7 +6088,7 @@
   (symbol (lib_id "power:GNDD") (at 113.919 139.827 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ea49db5-0c8c-46f9-b1f9-e52496ceab82)
-    (property "Reference" "#PWR022" (at 113.919 146.177 0)
+    (property "Reference" "#PWR082" (at 113.919 146.177 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 113.919 144.907 0)
@@ -6280,9 +6103,6 @@
     (pin "1" (uuid 8b9d0108-1cd3-4c3f-9999-8048838c38b3))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR082") (unit 1)
         )
@@ -6309,9 +6129,6 @@
     (pin "2" (uuid 90f0f6f7-8998-47ba-b878-60b42ba7bda8))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R1") (unit 1)
         )
@@ -6322,7 +6139,7 @@
   (symbol (lib_id "power:GNDD") (at 163.068 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52401523-7cb3-4950-af31-5dc8d8af3935)
-    (property "Reference" "#PWR010" (at 163.068 115.57 0)
+    (property "Reference" "#PWR060" (at 163.068 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 167.64 110.236 0)
@@ -6337,9 +6154,6 @@
     (pin "1" (uuid 3c03a2ec-47f2-4510-87a3-bb4809e1b371))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR060") (unit 1)
         )
@@ -6350,7 +6164,7 @@
   (symbol (lib_id "Device:R_US") (at 67.183 111.633 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52eeaece-4484-41e8-828c-9725f018cd07)
-    (property "Reference" "R1" (at 69.342 110.363 0)
+    (property "Reference" "R6" (at 69.342 110.363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 69.342 112.903 0)
@@ -6366,9 +6180,6 @@
     (pin "2" (uuid ce8bd0b0-508f-429f-8a8c-3d71a18c079a))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R6") (unit 1)
         )
@@ -6379,7 +6190,7 @@
   (symbol (lib_id "Device:R_US") (at 110.49 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 536a7759-f278-49bb-b519-13fbcd6b3955)
-    (property "Reference" "R8" (at 105.41 188.468 0)
+    (property "Reference" "R20" (at 105.41 188.468 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330" (at 105.41 190.754 0)
@@ -6395,9 +6206,6 @@
     (pin "2" (uuid 0c23708c-bd9f-4f0b-a6d0-fb2d866ce756))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R8") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R20") (unit 1)
         )
@@ -6408,7 +6216,7 @@
   (symbol (lib_id "power:GNDD") (at 196.342 65.532 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54143862-7f2d-4fc5-a16d-d3393a84b7a6)
-    (property "Reference" "#PWR078" (at 196.342 71.882 0)
+    (property "Reference" "#PWR025" (at 196.342 71.882 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 195.58 68.834 0)
@@ -6423,9 +6231,6 @@
     (pin "1" (uuid d23b0f24-687c-48f6-a17c-382893a28dda))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR078") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR025") (unit 1)
         )
@@ -6436,7 +6241,7 @@
   (symbol (lib_id "power:GNDD") (at 32.004 187.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 544dde7e-6e25-4e26-a5ab-c4a50a80381f)
-    (property "Reference" "#PWR022" (at 32.004 193.675 0)
+    (property "Reference" "#PWR0105" (at 32.004 193.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 32.766 190.881 0)
@@ -6451,9 +6256,6 @@
     (pin "1" (uuid 9d6f9e26-1aed-4e52-b5f5-457b4b8184c2))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR0105") (unit 1)
         )
@@ -6464,7 +6266,7 @@
   (symbol (lib_id "power:GNDD") (at 260.604 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54a3dbb8-892f-48ef-a25d-210aebee50dc)
-    (property "Reference" "#PWR068" (at 260.604 87.63 0)
+    (property "Reference" "#PWR039" (at 260.604 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 256.032 83.058 0)
@@ -6479,9 +6281,6 @@
     (pin "1" (uuid 8dabdf4d-7a21-4c65-89df-c59083c1f96b))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR068") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR039") (unit 1)
         )
@@ -6492,7 +6291,7 @@
   (symbol (lib_id "Device:R_US") (at 82.169 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55cf53e4-8144-483b-88cf-9ca258cf30a4)
-    (property "Reference" "R1" (at 84.328 110.49 0)
+    (property "Reference" "R8" (at 84.328 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 84.328 113.03 0)
@@ -6508,9 +6307,6 @@
     (pin "2" (uuid 2fc726fe-28be-42a6-a046-b2299e9f1a05))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R8") (unit 1)
         )
@@ -6521,7 +6317,7 @@
   (symbol (lib_id "power:+3.3V") (at 32.766 137.922 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57e6c32a-f60f-47a4-a42e-6215a6eb03cc)
-    (property "Reference" "#PWR021" (at 32.766 141.732 0)
+    (property "Reference" "#PWR079" (at 32.766 141.732 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 32.766 134.112 0)
@@ -6536,9 +6332,6 @@
     (pin "1" (uuid 20c55226-c1fb-4259-85f0-af49793c88aa))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR079") (unit 1)
         )
@@ -6549,7 +6342,7 @@
   (symbol (lib_id "power:GNDD") (at 70.739 66.929 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5867b473-0275-41df-8264-970619872184)
-    (property "Reference" "#PWR080" (at 70.739 73.279 0)
+    (property "Reference" "#PWR026" (at 70.739 73.279 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 74.041 66.929 0)
@@ -6564,9 +6357,6 @@
     (pin "1" (uuid 2631830d-39e9-4f7f-8150-f2ddcbb9965c))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR026") (unit 1)
         )
@@ -6577,7 +6367,7 @@
   (symbol (lib_id "power:GNDD") (at 107.188 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 588cc381-cac3-473d-aef6-5663707fbe00)
-    (property "Reference" "#PWR066" (at 107.188 34.29 0)
+    (property "Reference" "#PWR010" (at 107.188 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 107.188 33.02 0)
@@ -6592,9 +6382,6 @@
     (pin "1" (uuid 81a0656d-b196-492f-9f06-2d12a70ec47d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR066") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR010") (unit 1)
         )
@@ -6631,7 +6418,7 @@
   (symbol (lib_id "Device:R_US") (at 238.506 155.448 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59dc6926-e2d1-432c-bab7-b31c16a4c615)
-    (property "Reference" "R6" (at 241.046 154.813 0)
+    (property "Reference" "R16" (at 241.046 154.813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47" (at 241.046 157.353 0)
@@ -6647,9 +6434,6 @@
     (pin "2" (uuid 89539e74-00d4-4441-81d4-d0c46099ff94))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R6") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R16") (unit 1)
         )
@@ -6660,7 +6444,7 @@
   (symbol (lib_id "Device:C_Small") (at 31.75 33.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a792f94-67db-4676-855b-e299ffc51934)
-    (property "Reference" "C21" (at 24.13 32.512 0)
+    (property "Reference" "C5" (at 24.13 32.512 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 24.13 34.544 0)
@@ -6676,9 +6460,6 @@
     (pin "2" (uuid b688a4c6-c16c-4b5c-93ac-2b96d6e7fff7))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C21") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C5") (unit 1)
         )
@@ -6689,7 +6470,7 @@
   (symbol (lib_id "power:GNDD") (at 231.902 79.883 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5bb74cc1-d1c4-415c-b597-67a80c95bc5f)
-    (property "Reference" "#PWR075" (at 231.902 86.233 0)
+    (property "Reference" "#PWR032" (at 231.902 86.233 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 227.33 79.883 0)
@@ -6704,9 +6485,6 @@
     (pin "1" (uuid ad09742b-b104-46cf-8604-03e38ea5236f))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR075") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR032") (unit 1)
         )
@@ -6717,7 +6495,7 @@
   (symbol (lib_id "power:GNDD") (at 190.754 24.638 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c4a5a18-be18-456f-983d-fe4294cc63b1)
-    (property "Reference" "#PWR03" (at 190.754 30.988 0)
+    (property "Reference" "#PWR06" (at 190.754 30.988 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 190.754 29.718 0)
@@ -6732,9 +6510,6 @@
     (pin "1" (uuid 48304b80-14e0-4e6f-bee0-b9af243d9224))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR03") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR06") (unit 1)
         )
@@ -6745,7 +6520,7 @@
   (symbol (lib_id "Device:C_Small") (at 255.524 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5dd8f9b1-1743-488c-b36e-835c4f495059)
-    (property "Reference" "C6" (at 247.904 146.812 0)
+    (property "Reference" "C18" (at 247.904 146.812 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 247.904 148.844 0)
@@ -6761,9 +6536,6 @@
     (pin "2" (uuid bab0fe4a-b564-42dc-bb4d-6ab007ef310f))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C6") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C18") (unit 1)
         )
@@ -6774,7 +6546,7 @@
   (symbol (lib_id "power:GNDD") (at 147.828 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e930a12-d97b-4dd3-b764-ed5fa2537e80)
-    (property "Reference" "#PWR065" (at 147.828 45.72 0)
+    (property "Reference" "#PWR019" (at 147.828 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 147.828 44.45 0)
@@ -6789,9 +6561,6 @@
     (pin "1" (uuid f5e76273-0575-4013-8753-be8f37507872))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR065") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR019") (unit 1)
         )
@@ -6802,7 +6571,7 @@
   (symbol (lib_id "power:GNDD") (at 215.646 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60b801fc-7c61-4e7e-ab53-d6eba942a2d0)
-    (property "Reference" "#PWR036" (at 215.646 171.45 0)
+    (property "Reference" "#PWR095" (at 215.646 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 215.646 170.18 0)
@@ -6817,9 +6586,6 @@
     (pin "1" (uuid 4a62f669-22d7-4832-9e5d-439b77ebd714))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR036") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR095") (unit 1)
         )
@@ -6830,7 +6596,7 @@
   (symbol (lib_id "power:GNDD") (at 183.134 85.598 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60c9626b-4230-4899-b688-21a1919f149b)
-    (property "Reference" "#PWR082" (at 183.134 91.948 0)
+    (property "Reference" "#PWR045" (at 183.134 91.948 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 186.436 85.598 0)
@@ -6845,9 +6611,6 @@
     (pin "1" (uuid f004b070-7b18-4d22-bb57-a6b9375ec81d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR082") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR045") (unit 1)
         )
@@ -6858,7 +6621,7 @@
   (symbol (lib_id "power:GNDD") (at 32.004 200.025 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61d06b9a-8bca-49b0-b3de-51e5f84aa089)
-    (property "Reference" "#PWR022" (at 32.004 206.375 0)
+    (property "Reference" "#PWR0107" (at 32.004 206.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 36.703 201.93 0)
@@ -6873,9 +6636,6 @@
     (pin "1" (uuid a9fc05bf-71fa-438e-ba32-d1fcad09c0a6))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR0107") (unit 1)
         )
@@ -6886,7 +6646,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 15.494 105.41 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6570dc84-7eeb-446e-aff6-e72f087d4cff)
-    (property "Reference" "J13" (at 15.494 91.44 0)
+    (property "Reference" "J12" (at 15.494 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Mute" (at 15.494 93.98 0)
@@ -6908,9 +6668,6 @@
     (pin "8" (uuid 4812b62e-43d8-4996-b893-602c53b788d0))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J13") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J12") (unit 1)
         )
@@ -6921,7 +6678,7 @@
   (symbol (lib_id "power:+3.3V") (at 135.89 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65b0565d-7675-4534-99f2-e58dbd4d9dc4)
-    (property "Reference" "#PWR021" (at 135.89 181.61 0)
+    (property "Reference" "#PWR0103" (at 135.89 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 135.89 173.99 0)
@@ -6936,9 +6693,6 @@
     (pin "1" (uuid a1426347-9ab8-4f5d-bb2b-844eabb59689))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR0103") (unit 1)
         )
@@ -6949,7 +6703,7 @@
   (symbol (lib_id "Device:R_US") (at 32.766 141.732 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 674534f1-7276-416e-943f-0af8f4646dc1)
-    (property "Reference" "R8" (at 27.686 140.97 0)
+    (property "Reference" "R14" (at 27.686 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 27.686 143.256 0)
@@ -6965,9 +6719,6 @@
     (pin "2" (uuid c2d4847b-1eb3-46de-8c95-06d577daa0be))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R8") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R14") (unit 1)
         )
@@ -6978,7 +6729,7 @@
   (symbol (lib_id "power:GNDD") (at 210.566 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f31ea3f-6ff9-44d7-bcd2-19c476de3abb)
-    (property "Reference" "#PWR079" (at 210.566 92.71 0)
+    (property "Reference" "#PWR046" (at 210.566 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 210.566 91.44 0)
@@ -6993,9 +6744,6 @@
     (pin "1" (uuid 0a31a911-b175-4834-8bd8-b42a0d620908))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR079") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR046") (unit 1)
         )
@@ -7006,7 +6754,7 @@
   (symbol (lib_id "Device:C_Small") (at 242.824 162.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7199095c-2f18-43b1-92f6-77072b518517)
-    (property "Reference" "C7" (at 245.11 162.306 0)
+    (property "Reference" "C20" (at 245.11 162.306 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 245.364 164.338 0)
@@ -7022,9 +6770,6 @@
     (pin "2" (uuid 7c5d59f5-a0a8-461b-aac0-4188e483c607))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C7") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C20") (unit 1)
         )
@@ -7035,7 +6780,7 @@
   (symbol (lib_id "power:+3.3V") (at 176.022 114.554 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72365d3c-888d-400d-93e9-b4d4246642f0)
-    (property "Reference" "#PWR021" (at 176.022 118.364 0)
+    (property "Reference" "#PWR065" (at 176.022 118.364 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 176.022 110.744 0)
@@ -7050,9 +6795,6 @@
     (pin "1" (uuid 05b964c0-bdaf-4190-9dd2-ff0a2d67d885))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR065") (unit 1)
         )
@@ -7063,7 +6805,7 @@
   (symbol (lib_id "power:+5V") (at 205.994 34.798 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7949ed87-0a08-45bb-9030-2b4b9feac1d1)
-    (property "Reference" "#PWR02" (at 205.994 38.608 0)
+    (property "Reference" "#PWR014" (at 205.994 38.608 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 205.994 30.988 0)
@@ -7078,9 +6820,6 @@
     (pin "1" (uuid 99729b31-ae15-4721-88f1-fe785eaf0419))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR014") (unit 1)
         )
@@ -7091,7 +6830,7 @@
   (symbol (lib_id "power:GNDD") (at 54.864 168.402 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7aec7e9a-f50b-48ce-9840-17a1b36c8ecf)
-    (property "Reference" "#PWR011" (at 54.864 174.752 0)
+    (property "Reference" "#PWR097" (at 54.864 174.752 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 54.864 173.482 0)
@@ -7106,9 +6845,6 @@
     (pin "1" (uuid 6905b667-3de7-4815-9e1f-2e23c662179d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR011") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR097") (unit 1)
         )
@@ -7119,7 +6855,7 @@
   (symbol (lib_id "Device:R_US") (at 97.409 142.367 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7afd4acb-8239-4ecf-bea8-59b777207d7a)
-    (property "Reference" "R1" (at 99.949 141.097 0)
+    (property "Reference" "R15" (at 99.949 141.097 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470" (at 99.949 143.637 0)
@@ -7135,9 +6871,6 @@
     (pin "2" (uuid e443b589-8eaf-4171-8aa1-ed09aaa57bf8))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R15") (unit 1)
         )
@@ -7148,7 +6881,7 @@
   (symbol (lib_id "power:+3.3V") (at 231.14 36.576 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b177378-4ba7-4b1a-86ba-3615d702b3c5)
-    (property "Reference" "#PWR038" (at 231.14 40.386 0)
+    (property "Reference" "#PWR017" (at 231.14 40.386 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 231.14 32.766 0)
@@ -7163,9 +6896,6 @@
     (pin "1" (uuid 4ab75cc2-7552-41db-940a-13ff2a203be5))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR038") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR017") (unit 1)
         )
@@ -7176,7 +6906,7 @@
   (symbol (lib_id "Device:R_US") (at 153.289 141.605 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c81ee60-0ebc-4424-bd76-014a0d1cbf7b)
-    (property "Reference" "R8" (at 148.209 140.843 0)
+    (property "Reference" "R17" (at 148.209 140.843 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 147.828 143.129 0)
@@ -7192,9 +6922,6 @@
     (pin "2" (uuid 275bfa54-03f6-495b-9656-68d6ea2dbb4d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R8") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R17") (unit 1)
         )
@@ -7227,9 +6954,6 @@
     (pin "2" (uuid 08810071-bf8a-4934-9207-46aaf7277b75))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J1") (unit 1)
         )
@@ -7240,7 +6964,7 @@
   (symbol (lib_id "Device:C_Small") (at 32.004 172.085 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f0b638d-1080-468a-b400-71450053140b)
-    (property "Reference" "C2" (at 25.908 172.085 0)
+    (property "Reference" "C21" (at 25.908 172.085 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 26.035 173.99 0)
@@ -7256,9 +6980,6 @@
     (pin "2" (uuid bf887078-3805-49c5-a340-79efda2ed1bc))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C21") (unit 1)
         )
@@ -7269,7 +6990,7 @@
   (symbol (lib_id "Device:C_Small") (at 32.004 197.485 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8137a8e6-81e2-45fb-bc5d-2f5067c88681)
-    (property "Reference" "C2" (at 25.908 197.485 0)
+    (property "Reference" "C23" (at 25.908 197.485 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 26.035 199.39 0)
@@ -7285,9 +7006,6 @@
     (pin "2" (uuid 7acaf294-e924-4b78-b017-7c3d8fdf24ce))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C23") (unit 1)
         )
@@ -7298,7 +7016,7 @@
   (symbol (lib_id "power:+5V") (at 159.385 153.162 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81674037-c2df-43db-979a-decf0ddf71c5)
-    (property "Reference" "#PWR016" (at 159.385 156.972 0)
+    (property "Reference" "#PWR087" (at 159.385 156.972 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 159.385 149.352 0)
@@ -7313,9 +7031,6 @@
     (pin "1" (uuid 9a79df8a-52d8-43aa-8e64-15b7a2797b39))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR087") (unit 1)
         )
@@ -7326,7 +7041,7 @@
   (symbol (lib_id "power:GNDD") (at 32.131 161.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 824d566f-f9ab-4f37-8d47-212372fd7e28)
-    (property "Reference" "#PWR022" (at 32.131 168.275 0)
+    (property "Reference" "#PWR093" (at 32.131 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 32.893 165.481 0)
@@ -7341,9 +7056,6 @@
     (pin "1" (uuid 7d6cf189-0b48-4502-bfe8-6a2ab70e806a))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR093") (unit 1)
         )
@@ -7354,7 +7066,7 @@
   (symbol (lib_id "power:GNDD") (at 182.88 90.678 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83d6e078-c586-488c-a67b-a4bb3e5edec4)
-    (property "Reference" "#PWR083" (at 182.88 97.028 0)
+    (property "Reference" "#PWR049" (at 182.88 97.028 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 186.182 90.678 0)
@@ -7369,9 +7081,6 @@
     (pin "1" (uuid 71523548-9a2f-4495-8df3-527dac5a1e16))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR083") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR049") (unit 1)
         )
@@ -7382,7 +7091,7 @@
   (symbol (lib_id "Device:C_Small") (at 196.342 62.992 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83fbd636-fd7f-49d1-b787-cdd06839772f)
-    (property "Reference" "C26" (at 188.722 62.484 0)
+    (property "Reference" "C9" (at 188.722 62.484 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 188.722 64.516 0)
@@ -7398,9 +7107,6 @@
     (pin "2" (uuid 17f0d5e7-0a0b-48b5-8c46-a7362c99b3fd))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C26") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C9") (unit 1)
         )
@@ -7411,7 +7117,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 91.44 68.58 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 851735f5-d22e-4226-b548-03da25c42971)
-    (property "Reference" "J8" (at 91.44 60.96 0)
+    (property "Reference" "J5" (at 91.44 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "UART" (at 91.44 63.5 0)
@@ -7428,9 +7134,6 @@
     (pin "3" (uuid 38eae2cf-752d-4c14-99b3-d6945c7a539a))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J8") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J5") (unit 1)
         )
@@ -7441,7 +7144,7 @@
   (symbol (lib_id "Device:C_Small") (at 237.744 111.76 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8738dd5b-c658-4f08-82e0-b27a1afdd180)
-    (property "Reference" "C4" (at 230.124 111.252 0)
+    (property "Reference" "C11" (at 230.124 111.252 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 230.124 113.284 0)
@@ -7457,9 +7160,6 @@
     (pin "2" (uuid 9fabd16b-ddea-4cfd-8d9f-63583137449a))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C4") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C11") (unit 1)
         )
@@ -7470,7 +7170,7 @@
   (symbol (lib_id "power:+3.3V") (at 169.037 140.335 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88b562f1-2657-4085-a184-945e46bd9f4e)
-    (property "Reference" "#PWR021" (at 169.037 144.145 0)
+    (property "Reference" "#PWR0147" (at 169.037 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 167.64 136.652 0)
@@ -7485,9 +7185,6 @@
     (pin "1" (uuid c1fa635e-fd23-4b8a-b03e-283a11df2c89))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR0147") (unit 1)
         )
@@ -7498,7 +7195,7 @@
   (symbol (lib_id "power:GNDD") (at 15.24 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88dc743c-c8d9-4464-bfde-209780d8f2c1)
-    (property "Reference" "#PWR011" (at 15.24 176.53 0)
+    (property "Reference" "#PWR098" (at 15.24 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 15.24 175.26 0)
@@ -7513,9 +7210,6 @@
     (pin "1" (uuid f1874df3-6044-4f7e-932f-2b23e49740e1))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR011") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR098") (unit 1)
         )
@@ -7560,7 +7254,7 @@
   (symbol (lib_id "power:GNDD") (at 38.1 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b17e69d-251c-403a-9d68-5136fef1910a)
-    (property "Reference" "#PWR080" (at 38.1 74.93 0)
+    (property "Reference" "#PWR027" (at 38.1 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 41.402 68.58 0)
@@ -7575,9 +7269,6 @@
     (pin "1" (uuid 21f2125e-7d7f-44c9-8760-f38fb2392891))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR027") (unit 1)
         )
@@ -7588,7 +7279,7 @@
   (symbol (lib_id "power:+3.3V") (at 123.19 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b57fd96-3506-41d2-b0e6-f2b437f2cc6f)
-    (property "Reference" "#PWR021" (at 123.19 181.61 0)
+    (property "Reference" "#PWR0102" (at 123.19 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 123.19 173.99 0)
@@ -7603,9 +7294,6 @@
     (pin "1" (uuid fb32063f-4a56-4ee1-a55d-925fe6d8e604))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR0102") (unit 1)
         )
@@ -7616,7 +7304,7 @@
   (symbol (lib_id "power:GNDD") (at 231.902 84.963 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ce7acc9-a839-4e2a-8f54-a7db4d4d96c7)
-    (property "Reference" "#PWR074" (at 231.902 91.313 0)
+    (property "Reference" "#PWR036" (at 231.902 91.313 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 227.33 84.963 0)
@@ -7631,9 +7319,6 @@
     (pin "1" (uuid ade4afa9-1c82-4487-ac6e-8b621b08e201))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR074") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR036") (unit 1)
         )
@@ -7670,7 +7355,7 @@
   (symbol (lib_id "Device:C_Small") (at 188.722 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8dc84180-b52f-4c31-9d16-a0163a19b924)
-    (property "Reference" "C1" (at 188.7283 127 90)
+    (property "Reference" "C14" (at 188.7283 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 188.7283 129.54 90)
@@ -7686,9 +7371,6 @@
     (pin "2" (uuid d6db5c00-8be5-4289-8e74-c2f6a8a37f5d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C14") (unit 1)
         )
@@ -7699,7 +7381,7 @@
   (symbol (lib_id "power:GNDD") (at 255.524 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 902d64b9-20c6-4d7f-a65a-4808af2112d8)
-    (property "Reference" "#PWR030" (at 255.524 156.21 0)
+    (property "Reference" "#PWR085" (at 255.524 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 255.524 154.94 0)
@@ -7714,9 +7396,6 @@
     (pin "1" (uuid 264923ca-58be-4983-a173-8ab7819a0a8d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR030") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR085") (unit 1)
         )
@@ -7727,7 +7406,7 @@
   (symbol (lib_id "power:GNDD") (at 230.886 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 914a32bd-0b62-4e77-85c2-399306583989)
-    (property "Reference" "#PWR017" (at 230.886 161.29 0)
+    (property "Reference" "#PWR089" (at 230.886 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 230.886 160.02 0)
@@ -7742,9 +7421,6 @@
     (pin "1" (uuid 20b54ba1-dc3d-4219-9bc5-c9d2a48327d6))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR089") (unit 1)
         )
@@ -7755,7 +7431,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 208.026 160.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 938732a5-1857-416e-9389-f1f390a7d75a)
-    (property "Reference" "J4" (at 208.3434 154.432 0)
+    (property "Reference" "J14" (at 208.3434 154.432 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "REF_IN" (at 208.3434 156.972 0)
@@ -7771,9 +7447,6 @@
     (pin "2" (uuid 7f4536c6-65b9-4dd5-b11a-3dc7e5d73c7e))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J4") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J14") (unit 1)
         )
@@ -7784,7 +7457,7 @@
   (symbol (lib_id "power:+3.3V") (at 255.524 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93a15ae7-3d2f-4a9c-8513-ff12fa4befd5)
-    (property "Reference" "#PWR026" (at 255.524 125.73 0)
+    (property "Reference" "#PWR072" (at 255.524 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 256.032 118.11 0)
@@ -7799,9 +7472,6 @@
     (pin "1" (uuid 16465d2e-8bd8-4d68-a696-2389f7464570))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR026") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR072") (unit 1)
         )
@@ -7812,7 +7482,7 @@
   (symbol (lib_id "power:+3.3V") (at 186.309 153.162 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 977a332a-c675-49d4-b39c-7626a388b8ce)
-    (property "Reference" "#PWR034" (at 186.309 156.972 0)
+    (property "Reference" "#PWR0145" (at 186.309 156.972 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 184.277 149.352 0)
@@ -7827,9 +7497,6 @@
     (pin "1" (uuid e9d3f29c-1156-4ede-a7ac-3a8cf2c31865))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR034") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR0145") (unit 1)
         )
@@ -7840,7 +7507,7 @@
   (symbol (lib_id "Device:C_Small") (at 137.033 137.287 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9aed59fe-a5a5-4e32-a35d-86f1c073fac5)
-    (property "Reference" "C2" (at 139.319 136.525 0)
+    (property "Reference" "C17" (at 139.319 136.525 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 139.573 138.557 0)
@@ -7856,9 +7523,6 @@
     (pin "2" (uuid 89581154-1d40-4095-8bfc-cc632270f00a))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C17") (unit 1)
         )
@@ -7869,7 +7533,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 211.074 34.798 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e92c657-03b5-404b-be76-43622ada75fb)
-    (property "Reference" "J2" (at 213.106 35.433 0)
+    (property "Reference" "J3" (at 213.106 35.433 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "+5V In" (at 213.106 37.973 0)
@@ -7885,9 +7549,6 @@
     (pin "2" (uuid 5eff1101-efef-451a-bb39-c32925b882b3))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J3") (unit 1)
         )
@@ -7898,7 +7559,7 @@
   (symbol (lib_id "power:GNDD") (at 82.169 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f12f46b-e4c3-4b5b-8ef8-73945ecf920a)
-    (property "Reference" "#PWR080" (at 82.169 121.92 0)
+    (property "Reference" "#PWR069" (at 82.169 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 85.471 115.57 0)
@@ -7913,9 +7574,6 @@
     (pin "1" (uuid 061404ce-41e1-4a7d-8791-9321ece2c6ae))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR069") (unit 1)
         )
@@ -7926,7 +7584,7 @@
   (symbol (lib_id "power:GNDD") (at 108.839 158.877 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f59783d-26fc-4771-b336-4545dd096330)
-    (property "Reference" "#PWR022" (at 108.839 165.227 0)
+    (property "Reference" "#PWR091" (at 108.839 165.227 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 108.839 163.957 0)
@@ -7941,9 +7599,6 @@
     (pin "1" (uuid ea3ab0fb-a9bc-4b1a-b60a-6100e8035849))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR091") (unit 1)
         )
@@ -7954,7 +7609,7 @@
   (symbol (lib_id "power:+3.3V") (at 189.992 153.162 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a330b0fe-555c-4f0d-8f25-6f9ea08b320d)
-    (property "Reference" "#PWR035" (at 189.992 156.972 0)
+    (property "Reference" "#PWR0146" (at 189.992 156.972 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 191.008 149.352 0)
@@ -7969,9 +7624,6 @@
     (pin "1" (uuid 47ec62b0-89f4-4c6e-9467-f0b695167fc4))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR035") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR0146") (unit 1)
         )
@@ -7982,7 +7634,7 @@
   (symbol (lib_id "power:+5V") (at 153.289 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a41ee61f-cf94-4814-a301-4a375ce1a973)
-    (property "Reference" "#PWR016" (at 153.289 141.605 0)
+    (property "Reference" "#PWR088" (at 153.289 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 153.289 133.985 0)
@@ -7997,9 +7649,6 @@
     (pin "1" (uuid dd055cf6-fc70-4795-aadf-2793ee3f4399))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR088") (unit 1)
         )
@@ -8010,7 +7659,7 @@
   (symbol (lib_id "Device:R_US") (at 97.79 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a491141c-6d38-4e3e-887f-2d3080e86ae9)
-    (property "Reference" "R8" (at 92.71 188.468 0)
+    (property "Reference" "R19" (at 92.71 188.468 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330" (at 92.71 190.754 0)
@@ -8026,9 +7675,6 @@
     (pin "2" (uuid aa6bb897-d958-406d-aff8-77e92f58abc3))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R8") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R19") (unit 1)
         )
@@ -8067,7 +7713,7 @@
   (symbol (lib_id "Device:R_US") (at 123.19 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6f40f6c-dddc-496c-849f-868037b6aa2c)
-    (property "Reference" "R8" (at 118.11 188.468 0)
+    (property "Reference" "R21" (at 118.11 188.468 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330" (at 118.11 190.754 0)
@@ -8083,9 +7729,6 @@
     (pin "2" (uuid 1d8c1013-18fa-4f25-a2f6-6c41d29a7a8d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R8") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R21") (unit 1)
         )
@@ -8096,7 +7739,7 @@
   (symbol (lib_id "power:GNDD") (at 200.406 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9e09a9a-964e-4699-aae3-d6d8d0e075db)
-    (property "Reference" "#PWR076" (at 200.406 97.79 0)
+    (property "Reference" "#PWR050" (at 200.406 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 200.406 96.52 0)
@@ -8111,9 +7754,6 @@
     (pin "1" (uuid 74013a75-7a39-4edb-81bd-cdaef595fd0f))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR076") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR050") (unit 1)
         )
@@ -8124,7 +7764,7 @@
   (symbol (lib_id "power:GNDD") (at 242.824 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa050a76-680b-4916-b3da-a1dc5fdeba60)
-    (property "Reference" "#PWR032" (at 242.824 171.45 0)
+    (property "Reference" "#PWR096" (at 242.824 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 242.824 170.18 0)
@@ -8139,9 +7779,6 @@
     (pin "1" (uuid cd62e549-d173-4f6f-8f94-eb21bf03e1d1))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR032") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR096") (unit 1)
         )
@@ -8152,7 +7789,7 @@
   (symbol (lib_id "Device:R_US") (at 186.309 156.972 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac1317aa-3935-4686-9d19-d4d4a3b8d003)
-    (property "Reference" "R8" (at 181.229 156.21 0)
+    (property "Reference" "R52" (at 181.229 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 180.848 158.496 0)
@@ -8168,9 +7805,6 @@
     (pin "2" (uuid 0b40af20-90e8-4a25-bf15-6715306e68bb))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R8") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R52") (unit 1)
         )
@@ -8181,7 +7815,7 @@
   (symbol (lib_id "power:GNDD") (at 131.699 158.877 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac6d7b3d-4bdb-4c30-9a40-859820c188de)
-    (property "Reference" "#PWR022" (at 131.699 165.227 0)
+    (property "Reference" "#PWR092" (at 131.699 165.227 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 131.699 163.957 0)
@@ -8196,9 +7830,6 @@
     (pin "1" (uuid 24cf2ed8-bb40-44be-a06e-038d725e2217))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR092") (unit 1)
         )
@@ -8209,7 +7840,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 260.604 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac75c9f6-6ae9-4390-9ffb-fa7ca9df1059)
-    (property "Reference" "J9" (at 260.2866 70.612 0)
+    (property "Reference" "J8" (at 260.2866 70.612 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CLK0" (at 260.2866 73.152 0)
@@ -8225,9 +7856,6 @@
     (pin "2" (uuid 331019a6-bc03-4076-b934-109cdca9b10d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J9") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J8") (unit 1)
         )
@@ -8264,7 +7892,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 57.785 193.421 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid adf1c0fd-0045-41d5-8742-e11b1452e5a3)
-    (property "Reference" "J8" (at 57.785 184.15 0)
+    (property "Reference" "J22" (at 57.785 184.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "I/Q In" (at 57.785 186.69 0)
@@ -8281,9 +7909,6 @@
     (pin "3" (uuid 89833680-b8cc-47d2-9d56-239b4db1b039))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J8") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J22") (unit 1)
         )
@@ -8294,7 +7919,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x14") (at 251.46 34.036 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aede795e-0f76-4c53-8ca6-2990a704ca7d)
-    (property "Reference" "J3" (at 241.046 55.626 0)
+    (property "Reference" "U1" (at 241.046 55.626 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4\" TFT LCD ST7796S" (at 241.3 57.912 0)
@@ -8328,9 +7953,6 @@
     (pin "9" (uuid 114dbab2-8750-4706-9c21-48a592b2f3f8))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J3") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "U1") (unit 1)
         )
@@ -8397,7 +8019,7 @@
   (symbol (lib_id "Device:C_Small") (at 147.828 36.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1805a74-586a-474b-86a0-3817c79fa558)
-    (property "Reference" "C23" (at 140.208 36.322 0)
+    (property "Reference" "C8" (at 140.208 36.322 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 140.208 38.354 0)
@@ -8413,9 +8035,6 @@
     (pin "2" (uuid 08a15085-b2e3-4985-a07e-9dad315bba73))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C23") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C8") (unit 1)
         )
@@ -8426,7 +8045,7 @@
   (symbol (lib_id "power:GNDD") (at 38.1 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b31477d8-c86e-47b3-a445-50ec0dc790ee)
-    (property "Reference" "#PWR080" (at 38.1 90.17 0)
+    (property "Reference" "#PWR042" (at 38.1 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 41.402 83.82 0)
@@ -8441,9 +8060,6 @@
     (pin "1" (uuid 8a1cfe4b-7126-4be8-8fe5-9f536b4d3867))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR042") (unit 1)
         )
@@ -8454,7 +8070,7 @@
   (symbol (lib_id "Device:C_Small") (at 69.088 25.146 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3e83b87-416f-4962-be63-2338b52444f3)
-    (property "Reference" "C21" (at 61.468 24.638 0)
+    (property "Reference" "C1" (at 61.468 24.638 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 61.468 26.67 0)
@@ -8470,9 +8086,6 @@
     (pin "2" (uuid a12f88bc-6afa-4abe-a4f8-1b402e58368f))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C21") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C1") (unit 1)
         )
@@ -8483,7 +8096,7 @@
   (symbol (lib_id "power:GNDD") (at 260.604 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b510deec-98e6-41b3-ae88-a9b79454caf3)
-    (property "Reference" "#PWR070" (at 260.604 118.11 0)
+    (property "Reference" "#PWR062" (at 260.604 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 256.032 113.538 0)
@@ -8498,9 +8111,6 @@
     (pin "1" (uuid ced597be-fc8a-41f8-84da-59b3a7133f18))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR070") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR062") (unit 1)
         )
@@ -8511,7 +8121,7 @@
   (symbol (lib_id "power:+3.3V") (at 175.26 159.004 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6321b6f-d4f6-4b3f-92ea-4bdc99442605)
-    (property "Reference" "#PWR021" (at 175.26 162.814 0)
+    (property "Reference" "#PWR0148" (at 175.26 162.814 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 173.863 155.321 0)
@@ -8526,9 +8136,6 @@
     (pin "1" (uuid 0dd396dc-6b8f-4bae-a35a-6b152de6f67a))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR0148") (unit 1)
         )
@@ -8539,7 +8146,7 @@
   (symbol (lib_id "power:+3.3V") (at 205.994 19.558 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8878458-d5c1-4006-8b80-ee22ee713fe3)
-    (property "Reference" "#PWR01" (at 205.994 23.368 0)
+    (property "Reference" "#PWR03" (at 205.994 23.368 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 205.994 15.748 0)
@@ -8554,9 +8161,6 @@
     (pin "1" (uuid 513c810d-33d4-4665-a91b-d3a2f33e2ccc))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR03") (unit 1)
         )
@@ -8567,7 +8171,7 @@
   (symbol (lib_id "Device:C_Small") (at 247.904 132.842 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8f9bdd1-0055-4440-9ebc-f803ea27418f)
-    (property "Reference" "C5" (at 249.936 132.588 0)
+    (property "Reference" "C15" (at 249.936 132.588 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 249.936 134.62 0)
@@ -8583,9 +8187,6 @@
     (pin "2" (uuid 785ce011-9907-4ce0-8d13-c708a7e93aa3))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C5") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C15") (unit 1)
         )
@@ -8596,7 +8197,7 @@
   (symbol (lib_id "power:GNDD") (at 49.403 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba30752b-ad89-40bf-a8ff-e53c622f3a6f)
-    (property "Reference" "#PWR080" (at 49.403 121.92 0)
+    (property "Reference" "#PWR068" (at 49.403 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 52.705 115.57 0)
@@ -8611,9 +8212,6 @@
     (pin "1" (uuid 410c2b9f-cdf6-49a7-9414-874238eb8f15))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR068") (unit 1)
         )
@@ -8624,7 +8222,7 @@
   (symbol (lib_id "Transistor_FET:2N7002") (at 175.26 164.084 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba882298-9ef2-4295-9182-68dd1ebe478a)
-    (property "Reference" "Q2" (at 170.815 160.782 90)
+    (property "Reference" "Q3" (at 170.815 160.782 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2N7002" (at 168.529 162.941 90)
@@ -8641,12 +8239,6 @@
     (pin "3" (uuid 3d4f6468-0588-4762-bb6f-f31e49a10002))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "Q2") (unit 1)
-        )
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f/9b757a21-19cc-4b31-b590-6e6b7e1def6c"
-          (reference "Q2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "Q3") (unit 1)
         )
@@ -8657,7 +8249,7 @@
   (symbol (lib_id "Device:R_US") (at 49.403 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd768407-ef8d-49fa-b234-77432ce76164)
-    (property "Reference" "R1" (at 51.562 110.49 0)
+    (property "Reference" "R7" (at 51.562 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 51.562 113.03 0)
@@ -8673,9 +8265,6 @@
     (pin "2" (uuid 42198191-4307-41ba-93c2-a839e6bd2a79))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R7") (unit 1)
         )
@@ -8686,7 +8275,7 @@
   (symbol (lib_id "Transistor_FET:2N7002") (at 169.037 145.415 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c07d0368-e944-4449-a665-79fc013f6eaa)
-    (property "Reference" "Q2" (at 159.639 142.113 90)
+    (property "Reference" "Q4" (at 159.639 142.113 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2N7002" (at 162.052 144.145 90)
@@ -8703,12 +8292,6 @@
     (pin "3" (uuid 84db03b7-e1b6-4a88-a662-1f1ed8082fe6))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "Q2") (unit 1)
-        )
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f/9b757a21-19cc-4b31-b590-6e6b7e1def6c"
-          (reference "Q2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "Q4") (unit 1)
         )
@@ -8719,7 +8302,7 @@
   (symbol (lib_id "Device:C_Small") (at 32.131 159.385 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c127be93-ba91-4e15-99eb-cf5222dead00)
-    (property "Reference" "C2" (at 26.035 159.385 0)
+    (property "Reference" "C19" (at 26.035 159.385 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 26.162 161.29 0)
@@ -8735,9 +8318,6 @@
     (pin "2" (uuid 676ae8f8-a2d2-4c8a-bc41-ec69f2ffd1e1))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C19") (unit 1)
         )
@@ -8748,7 +8328,7 @@
   (symbol (lib_id "power:GNDD") (at 161.544 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2654c64-faa2-44e2-ac58-d09d4303656f)
-    (property "Reference" "#PWR09" (at 161.544 102.87 0)
+    (property "Reference" "#PWR053" (at 161.544 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 166.37 97.536 0)
@@ -8763,9 +8343,6 @@
     (pin "1" (uuid d07b2a20-44cd-4587-9c57-ec9401742326))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR053") (unit 1)
         )
@@ -8776,7 +8353,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 27.94 71.12 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c33ae1ea-0b0e-454d-8dd0-b3cc8beb0f49)
-    (property "Reference" "J12" (at 29.718 54.61 0)
+    (property "Reference" "J6" (at 29.718 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Transmit" (at 32.004 56.896 0)
@@ -8800,9 +8377,6 @@
     (pin "9" (uuid 676f3b09-628a-4ed7-97e0-f6b8b356dad9))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J12") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J6") (unit 1)
         )
@@ -8813,7 +8387,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack2_Ground_Switch") (at 20.447 24.892 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c370d74e-a2e0-4726-9711-fb52786eb4be)
-    (property "Reference" "J6" (at 17.78 14.478 0)
+    (property "Reference" "J2" (at 17.78 14.478 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Paddles" (at 23.114 16.764 0)
@@ -8832,12 +8406,6 @@
     (pin "TN" (uuid 270c9f4a-0973-4ab2-a0bc-f8a1c9f446e7))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J6") (unit 1)
-        )
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f/9b757a21-19cc-4b31-b590-6e6b7e1def6c"
-          (reference "J22") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J2") (unit 1)
         )
@@ -8848,7 +8416,7 @@
   (symbol (lib_id "power:GNDD") (at 247.904 135.382 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c40e84b6-9db7-4b3e-8842-26c4d042aae9)
-    (property "Reference" "#PWR029" (at 247.904 141.732 0)
+    (property "Reference" "#PWR078" (at 247.904 141.732 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 247.904 140.462 0)
@@ -8863,9 +8431,6 @@
     (pin "1" (uuid 01748205-d78c-4468-8913-cde834714551))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR029") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR078") (unit 1)
         )
@@ -8876,7 +8441,7 @@
   (symbol (lib_id "power:GNDD") (at 70.739 72.009 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c42d4542-3f10-485b-b5b2-67f54c5a963b)
-    (property "Reference" "#PWR080" (at 70.739 78.359 0)
+    (property "Reference" "#PWR031" (at 70.739 78.359 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 74.041 72.009 0)
@@ -8891,9 +8456,6 @@
     (pin "1" (uuid 2f34cf32-f84c-44f9-8b7d-d8a05e968cf2))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR031") (unit 1)
         )
@@ -8904,7 +8466,7 @@
   (symbol (lib_id "power:+3.3V") (at 213.106 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5e7b53d-81f1-4df4-95b5-17b8fadad088)
-    (property "Reference" "#PWR024" (at 213.106 102.87 0)
+    (property "Reference" "#PWR055" (at 213.106 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 212.09 95.25 0)
@@ -8919,9 +8481,6 @@
     (pin "1" (uuid 29a3368d-7559-43d5-a745-da27ed4b9604))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR055") (unit 1)
         )
@@ -8932,7 +8491,7 @@
   (symbol (lib_id "Device:R_US") (at 213.106 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c653790d-28f5-4114-98b9-615d0bd0f94a)
-    (property "Reference" "R3" (at 208.026 102.108 0)
+    (property "Reference" "R4" (at 208.026 102.108 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47" (at 208.026 104.394 0)
@@ -8948,9 +8507,6 @@
     (pin "2" (uuid 38526ae6-ea81-4a6a-a540-a2eb1ed63d07))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R3") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R4") (unit 1)
         )
@@ -8961,7 +8517,7 @@
   (symbol (lib_id "Device:R_US") (at 255.524 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c743c78a-10e4-4012-bac4-3bd200184aa9)
-    (property "Reference" "R5" (at 258.064 125.095 0)
+    (property "Reference" "R11" (at 258.064 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47" (at 258.064 127.635 0)
@@ -8977,9 +8533,6 @@
     (pin "2" (uuid 53c7579e-b9c5-4136-a5ee-274de322a67d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R5") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R11") (unit 1)
         )
@@ -8990,7 +8543,7 @@
   (symbol (lib_id "power:+5V") (at 159.004 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8ab83fe-28b9-4aeb-bed8-e02347396bd5)
-    (property "Reference" "#PWR016" (at 159.004 63.5 0)
+    (property "Reference" "#PWR022" (at 159.004 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 159.004 55.88 0)
@@ -9005,9 +8558,6 @@
     (pin "1" (uuid 4e9dee7b-99d1-4f03-a546-16ceacb792eb))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR022") (unit 1)
         )
@@ -9018,7 +8568,7 @@
   (symbol (lib_id "power:GNDD") (at 161.544 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca145cf8-d9a2-44a2-a690-9a5dad5f9c97)
-    (property "Reference" "#PWR07" (at 161.544 77.47 0)
+    (property "Reference" "#PWR030" (at 161.544 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 166.37 72.136 0)
@@ -9033,9 +8583,6 @@
     (pin "1" (uuid cf343bdc-842f-4ed3-a7b5-83ef77f0e096))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR030") (unit 1)
         )
@@ -9046,7 +8593,7 @@
   (symbol (lib_id "power:GNDD") (at 81.788 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb903814-3b72-48af-98e6-427ee3f431d4)
-    (property "Reference" "#PWR061" (at 81.788 45.72 0)
+    (property "Reference" "#PWR018" (at 81.788 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 81.788 44.45 0)
@@ -9061,9 +8608,6 @@
     (pin "1" (uuid faea8a7c-7e9f-491f-b971-11261e590223))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR061") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR018") (unit 1)
         )
@@ -9074,7 +8618,7 @@
   (symbol (lib_id "power:GNDD") (at 70.739 61.849 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc4c5f67-ca56-47ea-ab39-1bb9f7f4e13e)
-    (property "Reference" "#PWR080" (at 70.739 68.199 0)
+    (property "Reference" "#PWR023" (at 70.739 68.199 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 74.041 61.849 0)
@@ -9089,9 +8633,6 @@
     (pin "1" (uuid 8b2386fa-9b2c-4cc9-a025-0734f6428f3f))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR023") (unit 1)
         )
@@ -9102,7 +8643,7 @@
   (symbol (lib_id "power:GNDD") (at 25.654 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd12f3df-02b8-46ba-a057-2985c19d25e9)
-    (property "Reference" "#PWR080" (at 25.654 106.68 0)
+    (property "Reference" "#PWR057" (at 25.654 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 28.956 100.33 0)
@@ -9117,9 +8658,6 @@
     (pin "1" (uuid 2f5f8008-d6d2-492b-b821-0e9b1daaf6bb))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR057") (unit 1)
         )
@@ -9130,7 +8668,7 @@
   (symbol (lib_id "power:GNDD") (at 15.24 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cdcc0243-e74a-4580-9b51-a4d348ee5a93)
-    (property "Reference" "#PWR011" (at 15.24 163.83 0)
+    (property "Reference" "#PWR090" (at 15.24 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 15.24 162.56 0)
@@ -9145,9 +8683,6 @@
     (pin "1" (uuid c89af143-ef75-44ee-aa5d-fab479ce3916))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR011") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR090") (unit 1)
         )
@@ -9158,7 +8693,7 @@
   (symbol (lib_id "power:GNDD") (at 208.026 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce890c63-23d6-4f5d-a231-f407607940b7)
-    (property "Reference" "#PWR037" (at 208.026 171.45 0)
+    (property "Reference" "#PWR094" (at 208.026 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 208.026 170.18 0)
@@ -9173,9 +8708,6 @@
     (pin "1" (uuid 9e572e91-73ba-4c3d-aed1-234da0220ae6))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR037") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR094") (unit 1)
         )
@@ -9186,7 +8718,7 @@
   (symbol (lib_id "power:+3.3V") (at 183.896 140.208 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1657d7d-d0b2-4188-ae5a-cca9a4978d69)
-    (property "Reference" "#PWR033" (at 183.896 144.018 0)
+    (property "Reference" "#PWR081" (at 183.896 144.018 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 183.896 136.398 0)
@@ -9201,9 +8733,6 @@
     (pin "1" (uuid 659e957f-4abc-491d-80b8-518935b87305))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR033") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR081") (unit 1)
         )
@@ -9214,7 +8743,7 @@
   (symbol (lib_id "power:GNDD") (at 70.739 77.089 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1a9cd36-973b-4a14-926a-a901cede7758)
-    (property "Reference" "#PWR080" (at 70.739 83.439 0)
+    (property "Reference" "#PWR035" (at 70.739 83.439 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 74.041 77.089 0)
@@ -9229,9 +8758,6 @@
     (pin "1" (uuid 389bb84a-c486-45ee-875e-68ccd0f7c954))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR035") (unit 1)
         )
@@ -9242,7 +8768,7 @@
   (symbol (lib_id "power:+3.3V") (at 245.364 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2c1743c-5a83-4d94-b06f-f7b48ac33e3d)
-    (property "Reference" "#PWR025" (at 245.364 125.73 0)
+    (property "Reference" "#PWR071" (at 245.364 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 244.348 118.11 0)
@@ -9257,9 +8783,6 @@
     (pin "1" (uuid b0454694-26d7-4555-9358-f56ce6c23e74))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR025") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR071") (unit 1)
         )
@@ -9270,7 +8793,7 @@
   (symbol (lib_id "power:GNDD") (at 167.386 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3aadfc7-ed0c-469f-9b3e-ee43524edc12)
-    (property "Reference" "#PWR08" (at 167.386 90.17 0)
+    (property "Reference" "#PWR044" (at 167.386 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 168.91 87.63 0)
@@ -9285,9 +8808,6 @@
     (pin "1" (uuid 8b3f91f2-afce-4ade-b937-7903337ad334))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR08") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR044") (unit 1)
         )
@@ -9298,7 +8818,7 @@
   (symbol (lib_id "Device:R_US") (at 82.169 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3bb2e24-fb59-4c12-9e6c-1f35250844c3)
-    (property "Reference" "R1" (at 84.328 100.33 0)
+    (property "Reference" "R3" (at 84.328 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 84.328 102.87 0)
@@ -9314,9 +8834,6 @@
     (pin "2" (uuid 4661dfbe-2888-42a2-9de6-fdcb4391a2de))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R3") (unit 1)
         )
@@ -9327,7 +8844,7 @@
   (symbol (lib_id "power:GNDD") (at 160.782 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d54527c9-6a6f-46ad-bf65-3b1bd05ed96e)
-    (property "Reference" "#PWR022" (at 160.782 135.89 0)
+    (property "Reference" "#PWR074" (at 160.782 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 160.782 134.62 0)
@@ -9342,9 +8859,6 @@
     (pin "1" (uuid 5b75e989-b5a0-4806-84b2-14b662d1bc60))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR074") (unit 1)
         )
@@ -9355,7 +8869,7 @@
   (symbol (lib_id "power:GNDD") (at 207.264 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5a1af1b-0067-4549-84d9-43a7fd4e744b)
-    (property "Reference" "#PWR027" (at 207.264 120.65 0)
+    (property "Reference" "#PWR063" (at 207.264 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 207.264 119.38 0)
@@ -9370,9 +8884,6 @@
     (pin "1" (uuid 68b7c048-ded1-4f08-9429-352f051e0852))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR027") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR063") (unit 1)
         )
@@ -9383,7 +8894,7 @@
   (symbol (lib_id "power:GNDD") (at 137.033 139.827 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7138fc7-c545-4ca4-b527-f9dd4bfc5c4b)
-    (property "Reference" "#PWR022" (at 137.033 146.177 0)
+    (property "Reference" "#PWR083" (at 137.033 146.177 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 137.033 144.907 0)
@@ -9398,9 +8909,6 @@
     (pin "1" (uuid eb45a484-7917-43a3-9042-e74d3e6d689e))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR083") (unit 1)
         )
@@ -9411,7 +8919,7 @@
   (symbol (lib_id "power:GNDD") (at 38.1 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8188ecb-c6cc-48f0-bccb-ad929fa0af19)
-    (property "Reference" "#PWR080" (at 38.1 69.85 0)
+    (property "Reference" "#PWR024" (at 38.1 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 41.402 63.5 0)
@@ -9426,9 +8934,6 @@
     (pin "1" (uuid a488b990-9d04-4e54-be67-4c5fc058b7ec))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR024") (unit 1)
         )
@@ -9439,7 +8944,7 @@
   (symbol (lib_id "Device:C_Small") (at 65.405 190.881 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9d5936d-677e-44df-a06b-a21fa6a284a3)
-    (property "Reference" "C1" (at 65.4113 184.15 90)
+    (property "Reference" "C44" (at 65.4113 184.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 65.4113 186.69 90)
@@ -9455,9 +8960,6 @@
     (pin "2" (uuid 54cf013f-1076-47ae-8e5b-49ca14532424))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C1") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C44") (unit 1)
         )
@@ -9468,7 +8970,7 @@
   (symbol (lib_id "Analog_ADC:ADS1115IDGS") (at 200.406 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da96cb75-01c2-41f7-a45b-751fc918a1b7)
-    (property "Reference" "U6" (at 202.3619 66.802 0)
+    (property "Reference" "U2" (at 202.3619 66.802 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ADS1115IDGS" (at 202.3619 69.342 0)
@@ -9492,9 +8994,6 @@
     (pin "9" (uuid f03359a3-ed84-4f18-9d86-2df49403262a))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "U6") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "U2") (unit 1)
         )
@@ -9505,7 +9004,7 @@
   (symbol (lib_id "power:GNDD") (at 105.664 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd01931a-f934-446e-a228-5a7757ec9416)
-    (property "Reference" "#PWR012" (at 105.664 115.57 0)
+    (property "Reference" "#PWR059" (at 105.664 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 100.838 110.236 0)
@@ -9520,9 +9019,6 @@
     (pin "1" (uuid b5e740f8-9a20-48fc-ab2c-968cdbd7334a))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR012") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR059") (unit 1)
         )
@@ -9533,7 +9029,7 @@
   (symbol (lib_id "power:GNDD") (at 176.022 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de186a6f-b304-4cef-ba76-ef8accc13246)
-    (property "Reference" "#PWR020" (at 176.022 144.78 0)
+    (property "Reference" "#PWR080" (at 176.022 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 176.022 143.51 0)
@@ -9548,9 +9044,6 @@
     (pin "1" (uuid fe63010e-5c6b-4ab0-b4cc-d125ec3525f6))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR080") (unit 1)
         )
@@ -9561,7 +9054,7 @@
   (symbol (lib_id "power:GNDD") (at 74.168 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df861a15-e6a3-422d-bee6-f6d2f4a6f2c2)
-    (property "Reference" "#PWR05" (at 74.168 30.48 0)
+    (property "Reference" "#PWR04" (at 74.168 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 74.168 29.21 0)
@@ -9576,9 +9069,6 @@
     (pin "1" (uuid 6f3bc7d6-df57-42ee-83ab-897ccfd8c34d))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR05") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR04") (unit 1)
         )
@@ -9589,7 +9079,7 @@
   (symbol (lib_id "power:GNDD") (at 97.028 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1eddaf4-c3f9-4ee2-92bd-8d95c8c5f678)
-    (property "Reference" "#PWR062" (at 97.028 33.02 0)
+    (property "Reference" "#PWR07" (at 97.028 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 97.028 31.75 0)
@@ -9604,9 +9094,6 @@
     (pin "1" (uuid 0b7812a5-b2a9-4996-90c7-5c810e9f8cb3))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR062") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR07") (unit 1)
         )
@@ -9645,7 +9132,7 @@
   (symbol (lib_id "power:GNDD") (at 96.52 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6e6181f-34a2-450e-9be1-db644682df4f)
-    (property "Reference" "#PWR059" (at 96.52 77.47 0)
+    (property "Reference" "#PWR028" (at 96.52 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 96.52 76.2 0)
@@ -9660,9 +9147,6 @@
     (pin "1" (uuid debc7835-df52-405e-8bee-3e35f3d3949c))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR059") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR028") (unit 1)
         )
@@ -9673,7 +9157,7 @@
   (symbol (lib_id "power:GNDD") (at 35.56 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec088f72-31ab-42bd-8f85-67141d9880fc)
-    (property "Reference" "#PWR060" (at 35.56 41.91 0)
+    (property "Reference" "#PWR016" (at 35.56 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 40.64 37.465 0)
@@ -9688,9 +9172,6 @@
     (pin "1" (uuid 1f1fc964-db04-475e-bfc4-885304f5438e))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR060") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR016") (unit 1)
         )
@@ -9701,7 +9182,7 @@
   (symbol (lib_id "Device:C_Small") (at 207.264 111.76 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ecd72d25-1e20-4388-9871-fbf8ea6bc180)
-    (property "Reference" "C3" (at 199.644 111.252 0)
+    (property "Reference" "C10" (at 199.644 111.252 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 199.644 113.284 0)
@@ -9717,9 +9198,6 @@
     (pin "2" (uuid 8be76c05-3dbc-4c54-9d92-df68a98ca83c))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C3") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C10") (unit 1)
         )
@@ -9730,7 +9208,7 @@
   (symbol (lib_id "Device:C_Small") (at 81.788 36.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee1825b1-4c72-4046-bc2f-04d393b75459)
-    (property "Reference" "C20" (at 74.168 36.322 0)
+    (property "Reference" "C7" (at 74.168 36.322 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 74.168 38.354 0)
@@ -9746,9 +9224,6 @@
     (pin "2" (uuid 8947e970-53a4-41d5-86fe-41d3339f9d39))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "C20") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "C7") (unit 1)
         )
@@ -9759,7 +9234,7 @@
   (symbol (lib_id "power:GNDD") (at 134.874 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f01b1bb0-bba9-4cad-8677-a501bbfd1e37)
-    (property "Reference" "#PWR064" (at 134.874 34.29 0)
+    (property "Reference" "#PWR011" (at 134.874 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 134.874 33.02 0)
@@ -9774,9 +9249,6 @@
     (pin "1" (uuid 4f60a7a1-d3af-446a-9aea-d32c5284cab7))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR064") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR011") (unit 1)
         )
@@ -9787,7 +9259,7 @@
   (symbol (lib_id "power:GNDD") (at 31.75 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1fc8385-c259-4dcf-9b70-42315d9feadb)
-    (property "Reference" "#PWR060" (at 31.75 41.91 0)
+    (property "Reference" "#PWR015" (at 31.75 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 26.162 37.592 0)
@@ -9802,9 +9274,6 @@
     (pin "1" (uuid e5cc2c96-35e1-467e-aa4f-f0782453831a))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR060") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR015") (unit 1)
         )
@@ -9815,7 +9284,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 260.604 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f757e17f-67b4-448e-bc88-5e8f8c58695e)
-    (property "Reference" "J11" (at 260.2866 101.092 0)
+    (property "Reference" "J13" (at 260.2866 101.092 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CLK4" (at 260.2866 103.632 0)
@@ -9831,9 +9300,6 @@
     (pin "2" (uuid 03c73436-c070-4e36-b5b1-6926edf2b4cf))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "J11") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "J13") (unit 1)
         )
@@ -9844,7 +9310,7 @@
   (symbol (lib_id "power:+3.3V") (at 110.49 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9a3af61-3c6e-43a0-8545-21d6c29d4ecc)
-    (property "Reference" "#PWR021" (at 110.49 181.61 0)
+    (property "Reference" "#PWR0101" (at 110.49 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 110.49 173.99 0)
@@ -9859,9 +9325,6 @@
     (pin "1" (uuid 9cc56ad1-3cfa-4227-9ee6-ffd00c4e55d0))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR0101") (unit 1)
         )
@@ -9872,7 +9335,7 @@
   (symbol (lib_id "Device:R_US") (at 245.364 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9ab68fb-cd41-4b99-bfbc-a675d73c932f)
-    (property "Reference" "R4" (at 240.284 124.968 0)
+    (property "Reference" "R10" (at 240.284 124.968 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47" (at 240.284 127.254 0)
@@ -9888,9 +9351,6 @@
     (pin "2" (uuid 3e8650a8-5831-44a3-aaac-a9a353916d1a))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R4") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R10") (unit 1)
         )
@@ -9901,7 +9361,7 @@
   (symbol (lib_id "power:GNDD") (at 38.1 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9d0ea69-0eb1-4c0c-91ef-3fdeac3ef5ae)
-    (property "Reference" "#PWR080" (at 38.1 80.01 0)
+    (property "Reference" "#PWR033" (at 38.1 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 41.402 73.66 0)
@@ -9916,9 +9376,6 @@
     (pin "1" (uuid 1dd228fe-f407-4f99-a4c7-9d5bf71be91e))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR080") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR033") (unit 1)
         )
@@ -9955,7 +9412,7 @@
   (symbol (lib_id "power:+5V") (at 200.406 58.166 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc630ee7-8e82-45af-97d2-545ce8485315)
-    (property "Reference" "#PWR077" (at 200.406 61.976 0)
+    (property "Reference" "#PWR021" (at 200.406 61.976 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 200.406 54.356 0)
@@ -9970,9 +9427,6 @@
     (pin "1" (uuid 2e6113c3-8e00-4bd1-9ea2-b250ae5109ab))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR077") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR021") (unit 1)
         )
@@ -9983,7 +9437,7 @@
   (symbol (lib_id "power:GNDD") (at 140.208 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fcb8a0b9-e114-4ea0-9fad-961a8b546bc2)
-    (property "Reference" "#PWR06" (at 140.208 30.48 0)
+    (property "Reference" "#PWR05" (at 140.208 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 140.208 29.21 0)
@@ -9998,9 +9452,6 @@
     (pin "1" (uuid acdcc616-00f3-4d82-b562-5f17e77ae183))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "#PWR06") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "#PWR05") (unit 1)
         )
@@ -10011,7 +9462,7 @@
   (symbol (lib_id "Device:R_US") (at 49.784 139.192 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdbb8df0-f8a2-4157-8da2-b2f3cbc8be02)
-    (property "Reference" "R8" (at 44.704 138.43 0)
+    (property "Reference" "R12" (at 44.704 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 44.704 140.716 0)
@@ -10027,9 +9478,6 @@
     (pin "2" (uuid fd89b76c-86f7-409a-bffa-982cf6faaa65))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "R8") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "R12") (unit 1)
         )
@@ -10059,9 +9507,6 @@
     (pin "S2" (uuid fd2788e7-337c-46a7-ab66-718c007ab3ee))
     (instances
       (project "YamhillFrontPanel"
-        (path "/c09b9381-71d9-4300-8f40-e93281c4978f"
-          (reference "SW2") (unit 1)
-        )
         (path "/c09b9381-71d9-4300-8f40-e93281c4978f/3174a812-bedd-4f1b-98d9-d32071069f9c"
           (reference "SW2") (unit 1)
         )
