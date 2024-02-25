@@ -2,12 +2,12 @@
 
   (uuid 6d86b1dc-dda8-4e8d-89a8-26dc6f159862)
 
-  (paper "A4")
+  (paper "USLetter")
 
   (title_block
     (title "Project Yamhill Front Panel")
-    (date "2024-01-03")
-    (rev "A")
+    (date "2024-01-25")
+    (rev "B")
     (company "Etherkit LLC")
   )
 
@@ -4228,7 +4228,7 @@
     (property "Value" "LM4875" (at 158.496 122.682 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm" (at 156.464 134.366 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 156.464 134.366 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4810.pdf" (at 156.464 134.366 0)

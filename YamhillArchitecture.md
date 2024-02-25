@@ -1,27 +1,33 @@
 # Project Yamhill Architecture
+
 Jason Milldrum, NT7S<br/>
 Etherkit LLC<br/>
-Revision: 4 November 2023
+Revision: 25 February 2024
 
 ## Overview
+
 Project Yamhill is the successor to the Willamette Transceiver, also known as the qrp-l Group Project. The purpose of this endeavor is to provide a platform to learn about radio electronics at a system level. Modules that correspond to the blocks of a block diagram will be the basis upon which different types of radio designs will be created. A modular 3D printed backplane will be the chassis, user interface, and power supply for the radio experiments. The desired goal is to have a high-performance CW QRP transceiver at the end of the main project run, however there would be the capacity to build many other types of radios from the blocks as desired, such as a SSB transceiver, run more transmit power with a linear amplifier that can provide 20 watts or more, data radio, simple receiver, different architectures such as a phasing receiver, etc.
 
 All designs and code will be permissively open sourced so that an end user is able to build one by himself if desired. All radio design specifications will be published, along with detailed information about how the user can make his own measurements with affordable test equipment to ensure that his radio is performing as expected.
 
 ## Backplane
+
 The Yamhill backplane will be the foundation of every radio experiment in this project. Designed to be printed on a consumer-grade FDM 3D printer, it will hold all of the necessary block modules open-air in a reconfigurable grid, have an integrated power supply and power distribution system, have rear connectors needed for a complete transceiver, and house the front panel with the user interface, including microcontroller, LCD display, buttons, encoder tuning knob, etc.
 
 Possibly two sizes, but we're going to start with the largest and see if there is demand for a more compact version.
 
 ### Block Module Grid
+
 A grid of mounting holes for M3(?) screws to secure block module PCBs to the backplane will be spaced at 4 cm in each axis, with allowance for 5 mm of margin from the outside board edge at each mounting hole, with a 1 cm x 1 cm x 1 cm cable management channel being provided between each row and column of mounting holes.
 
 Therefore, allowable PCB sizes will be 5 cm x 5 cm, 5 cm x 11 cm, 11 cm x 11 cm, 11 cm x 17 cm, etc.
 
 ### Signal Routing
+
 DC power is to be provided by and distributed through a PCB that integrates with the backplane. Channels to be provided in the backplane (1 cm width?) for easy and neat distribution of other signals.
 
 ### On-board Rear Panel Connectors
+
 - BNC (x2)
 - SMA (x2)
 - DC barrel (5.5 x 2.1 mm)
@@ -29,6 +35,7 @@ DC power is to be provided by and distributed through a PCB that integrates with
 - USB-C (for UART)
 
 ### Front Panel
+
 A front panel PCB will hold most of the user interface and brains of Project Yamhill. This PCB will be populated with:
 - Raspberry Pi Pico microcontroller
 - Color LCD display module with touchscreen
@@ -50,9 +57,11 @@ A front panel PCB will hold most of the user interface and brains of Project Yam
 The front panel PCB will have a USB connection for programming the microcontroller, as well as at least one UART available for rig control, debugging purposes, etc.
 
 ## Block Modules
+
 Block modules are self-contained PCBs that will perform the functions of a block on the block diagram of a radio. Most components on front panel PCB will be SMT, and those boards sold by Etherkit will have the SMT components installed by the manufacturer. Most individual modules will be through-hole, unless there are no non-SMT options for a component.
 
 ### List
+
 - PSU/Power Distribution (special case, backplane integration)
     - 12 V rail, derived from exterior PSU, minimum 1 A
     - 5 V rail, minimum 500 mA(?)
@@ -104,22 +113,28 @@ Block modules are self-contained PCBs that will perform the functions of a block
 - Experimenter Board (grid of Manhattan pads, connectors pads available on edge, few different sizes)
 
 ### Inter-module RF Signal Interconnects
+
 SMA PCB mount jacks and RG-316 coax with SMA connectors
 
 ### Inter-module DC/AF Signal Interconnects
+
 0.1 inch pin headers and Dupont wiring harnesses
 
 ## Proposed Learning Units
+
 - Direct Conversion Receiver
 - QRP CW Transmitter
+- DSB Transmitter/Transceiver
 - Superheterodyne CW QRP Transceiver
 - WSPR Transmitter
 - Superheterodyne SSB/CW QRP Transceiver
 
 ## QRP CW Transceiver Target Specifications
+
 TBD
 
 ## Expected Required Test Equipment
+
 - DVM
 - Oscilloscope
 - Spectrum analyzer such as tinySA

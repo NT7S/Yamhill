@@ -2,12 +2,12 @@
 
   (uuid 75365511-0d7a-4617-9dd1-e18b5ecd2974)
 
-  (paper "A4")
+  (paper "USLetter")
 
   (title_block
     (title "Project Yamhill Front Panel")
-    (date "2023-09-05")
-    (rev "A")
+    (date "2024-01-25")
+    (rev "B")
     (company "Etherkit LLC")
   )
 
@@ -4474,7 +4474,7 @@
     (property "Value" "Si5351C" (at 229.362 119.888 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.45mm_EP1.55x1.55mm_ThermalVias" (at 218.186 137.16 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" (at 218.186 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "DOCUMENTATION" (at 218.186 137.16 0)
@@ -5617,7 +5617,7 @@
     (property "Reference" "U6" (at 65.024 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TCAL6416" (at 65.024 135.89 0)
+    (property "Value" "TCAL6416PWR" (at 65.024 135.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm" (at 65.024 172.72 0)
