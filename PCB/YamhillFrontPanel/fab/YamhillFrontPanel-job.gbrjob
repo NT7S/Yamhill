@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.10-7.0.10~ubuntu22.04.1"
+      "Version": "8.0.2-8.0.2-0~ubuntu22.04.1"
     },
-    "CreationDate": "2024-01-04T09:02:15-08:00"
+    "CreationDate": "2024-05-24T15:24:21-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "YamhillFrontPanel",
       "GUID": "59616d68-696c-46c4-9672-6f6e7450616e",
-      "Revision": "A"
+      "Revision": "B"
     },
     "Size": {
       "X": 170.2,
@@ -25,8 +25,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.09,
-      "PadToTrack": 0.09,
+      "PadToPad": 0.13,
+      "PadToTrack": 0.13,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.25,
@@ -34,8 +34,8 @@
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.09,
-      "PadToTrack": 0.09,
+      "PadToPad": 0.13,
+      "PadToTrack": 0.13,
       "TrackToTrack": 0.2,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
