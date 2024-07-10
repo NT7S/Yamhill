@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Project Yamhill Front Panel")
-		(date "2024-05-24")
+		(date "2024-06-02")
 		(rev "B")
 		(company "Etherkit LLC")
 	)

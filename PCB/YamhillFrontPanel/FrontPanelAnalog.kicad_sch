@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Project Yamhill Front Panel")
-		(date "2024-05-24")
+		(date "2024-06-02")
 		(rev "B")
 		(company "Etherkit LLC")
 	)
@@ -3409,12 +3409,6 @@
 		(uuid "1371aa94-1b54-4bef-bf37-fb5193c9ec77")
 	)
 	(junction
-		(at 149.606 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13aa936a-c546-462f-8bd4-a26f1bc1f580")
-	)
-	(junction
 		(at 63.5 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4362,7 +4356,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.606 118.872) (xy 149.606 124.46)
+			(xy 149.606 118.872) (xy 149.606 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4399,16 +4393,6 @@
 			(type default)
 		)
 		(uuid "40c3b228-e914-4ba2-8720-3adfb4c5a458")
-	)
-	(wire
-		(pts
-			(xy 152.4 124.46) (xy 149.606 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40e013ab-c4f5-40b8-924c-a26cce12fa96")
 	)
 	(wire
 		(pts
@@ -4479,16 +4463,6 @@
 			(type default)
 		)
 		(uuid "48b37444-404f-4682-af2f-12a51064a2ff")
-	)
-	(wire
-		(pts
-			(xy 149.606 124.46) (xy 149.606 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "496282b4-358f-4789-9f3b-ad147e73348e")
 	)
 	(wire
 		(pts
@@ -6232,28 +6206,6 @@
 		(uuid "2c9e705b-994c-48ee-b820-206c59ca062b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 199.0542 38.227 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I_SAMPLE"
-		(shape output)
-		(at 152.4 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "60dbc913-ca7a-4b2f-8c29-1f63693d4214")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.1542 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)

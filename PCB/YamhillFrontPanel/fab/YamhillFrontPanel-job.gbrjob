@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.2-8.0.2-0~ubuntu22.04.1"
     },
-    "CreationDate": "2024-05-24T15:24:21-07:00"
+    "CreationDate": "2024-05-24T16:16:29-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -25,8 +25,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.13,
-      "PadToTrack": 0.13,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.25,
@@ -34,8 +34,8 @@
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.13,
-      "PadToTrack": 0.13,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
